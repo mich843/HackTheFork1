@@ -1,0 +1,238 @@
+{
+  "menus": [
+    {
+      "id": "menu-1",
+      "name": "Mediterranean Feast",
+      "description": "A vibrant spread featuring Mediterranean flavors with fresh ingredients and bold spices",
+      "dishes": [
+        {
+          "name": "Hummus & Falafel Bar",
+          "description": "Creamy hummus varieties, crispy falafels, fresh pita bread, and tahini sauce"
+        },
+        {
+          "name": "Mediterranean Grain Bowl",
+          "description": "Quinoa and bulgur with roasted vegetables, olives, and lemon-herb dressing"
+        },
+        {
+          "name": "Stuffed Grape Leaves",
+          "description": "Rice and herb filled dolmas with tangy pomegranate glaze"
+        },
+        {
+          "name": "Baba Ganoush & Veggie Platter",
+          "description": "Smoky eggplant dip with colorful seasonal vegetables"
+        },
+        {
+          "name": "Baklava Bites",
+          "description": "Flaky phyllo pastry layered with nuts and agave syrup"
+        }
+      ],
+      "pricePerPerson": 18.50,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 285,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional meat-based Mediterranean buffet",
+          "equivalentTo": "Driving 710 miles in an average car"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 42,
+          "breakdown": {
+            "chickens": 40,
+            "fish": 2
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    },
+    {
+      "id": "menu-2",
+      "name": "Asian Fusion Buffet",
+      "description": "A delicious journey through Asian cuisines with plant-based twists on classic favorites",
+      "dishes": [
+        {
+          "name": "Spring Rolls & Dumplings",
+          "description": "Crispy spring rolls and steamed dumplings with ginger-soy dipping sauce"
+        },
+        {
+          "name": "Thai Curry Station",
+          "description": "Red and green curry with tofu, vegetables, and jasmine rice"
+        },
+        {
+          "name": "Korean BBQ Jackfruit",
+          "description": "Marinated jackfruit with gochujang glaze and kimchi"
+        },
+        {
+          "name": "Pad Thai",
+          "description": "Rice noodles with vegetables, peanuts, and tamarind sauce"
+        },
+        {
+          "name": "Mango Sticky Rice",
+          "description": "Sweet coconut rice with fresh mango slices"
+        }
+      ],
+      "pricePerPerson": 19.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 320,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional Asian buffet with chicken, pork, and seafood",
+          "equivalentTo": "Powering a home for 11 days"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 68,
+          "breakdown": {
+            "chickens": 45,
+            "pigs": 3,
+            "fish": 20
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    },
+    {
+      "id": "menu-3",
+      "name": "American Comfort Classics",
+      "description": "Familiar favorites reimagined with plant-based ingredients - comfort food without compromise",
+      "dishes": [
+        {
+          "name": "BBQ Pulled Jackfruit Sliders",
+          "description": "Tender jackfruit in smoky BBQ sauce on mini buns with coleslaw"
+        },
+        {
+          "name": "Mac & Cheese Bar",
+          "description": "Creamy cashew-based mac with various toppings and mix-ins"
+        },
+        {
+          "name": "Buffalo Cauliflower Wings",
+          "description": "Crispy cauliflower in spicy buffalo sauce with ranch dip"
+        },
+        {
+          "name": "Loaded Potato Bar",
+          "description": "Baked potatoes with vegan cheese, bacon bits, sour cream, and chives"
+        },
+        {
+          "name": "Chocolate Chip Cookie Platter",
+          "description": "Warm, gooey chocolate chip cookies"
+        }
+      ],
+      "pricePerPerson": 17.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 410,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional American buffet with beef, pork, and dairy",
+          "equivalentTo": "Taking 1.5 cars off the road for a month"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 58,
+          "breakdown": {
+            "cows": 4,
+            "pigs": 6,
+            "chickens": 48
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    },
+    {
+      "id": "menu-4",
+      "name": "Italian Trattoria",
+      "description": "Classic Italian dishes showcasing the naturally plant-rich cuisine of Italy",
+      "dishes": [
+        {
+          "name": "Bruschetta & Antipasti Board",
+          "description": "Tomato bruschetta, marinated vegetables, olives, and artisan bread"
+        },
+        {
+          "name": "Pasta Station",
+          "description": "Choice of marinara, arrabbiata, or pesto with fresh pasta"
+        },
+        {
+          "name": "Eggplant Parmigiana",
+          "description": "Breaded eggplant layers with marinara and vegan mozzarella"
+        },
+        {
+          "name": "Caprese Salad",
+          "description": "Fresh tomatoes, basil, and plant-based mozzarella with balsamic glaze"
+        },
+        {
+          "name": "Tiramisu",
+          "description": "Classic Italian dessert made with plant-based ingredients"
+        }
+      ],
+      "pricePerPerson": 20.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 265,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional Italian buffet with meat and dairy",
+          "equivalentTo": "Planting 12 trees and letting them grow for 10 years"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 35,
+          "breakdown": {
+            "cows": 8,
+            "chickens": 27
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    },
+    {
+      "id": "menu-5",
+      "name": "Global Street Food",
+      "description": "An exciting mix of street food favorites from around the world",
+      "dishes": [
+        {
+          "name": "Tacos Al Pastor",
+          "description": "Marinated jackfruit tacos with pineapple, cilantro, and lime"
+        },
+        {
+          "name": "Indian Samosas",
+          "description": "Spiced potato and pea filled pastries with mint chutney"
+        },
+        {
+          "name": "Middle Eastern Shawarma Bowl",
+          "description": "Spiced chickpea shawarma with tahini and pickled vegetables"
+        },
+        {
+          "name": "Vietnamese Banh Mi",
+          "description": "Crispy tofu sandwiches with pickled veggies and sriracha mayo"
+        },
+        {
+          "name": "Churros & Chocolate",
+          "description": "Cinnamon sugar churros with rich chocolate dipping sauce"
+        }
+      ],
+      "pricePerPerson": 16.50,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 345,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional street food buffet with various meats",
+          "equivalentTo": "Not using a dryer for 2 years"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 72,
+          "breakdown": {
+            "chickens": 50,
+            "pigs": 7,
+            "cows": 5,
+            "fish": 10
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "generatedFor": {
+      "eventType": "Afterwork Buffet",
+      "numberOfPeople": 100,
+      "budget": 2000,
+      "address": "123 Main St, San Francisco, CA"
+    },
+    "dataSource": "mock",
+    "timestamp": "2025-12-13T22:00:00Z"
+  }
+}
