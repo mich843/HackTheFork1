@@ -1,0 +1,108 @@
+{
+  "eventType": "Afterwork Buffet",
+  "numberOfPeople": 100,
+  "budget": 1500,
+  "address": "Corporate Office, Downtown",
+  "menus": [
+    {
+      "id": "menu-1",
+      "name": "Mediterranean Mezze Spread",
+      "description": "A vibrant selection of Mediterranean-inspired dishes featuring fresh vegetables, legumes, and aromatic herbs.",
+      "pricePerPerson": 15,
+      "totalPrice": 1500,
+      "items": [
+        "Hummus trio (classic, roasted red pepper, garlic)",
+        "Baba ganoush with grilled vegetables",
+        "Falafel with tahini sauce",
+        "Tabbouleh salad",
+        "Stuffed grape leaves",
+        "Marinated olives and pickled vegetables",
+        "Warm pita bread and flatbreads",
+        "Fresh fruit platter"
+      ],
+      "carbonFootprintSaved": {
+        "value": 450,
+        "unit": "kg CO2e"
+      },
+      "sufferingFootprintAvoided": {
+        "value": 100,
+        "unit": "animal lives"
+      }
+    },
+    {
+      "id": "menu-2",
+      "name": "Asian Fusion Buffet",
+      "description": "An exciting blend of Asian flavors with plant-based proteins and fresh vegetables, perfect for a diverse crowd.",
+      "pricePerPerson": 16,
+      "totalPrice": 1600,
+      "items": [
+        "Vegetable spring rolls with sweet chili sauce",
+        "Tofu pad thai",
+        "Vegetable fried rice",
+        "General Tso's cauliflower",
+        "Edamame with sea salt",
+        "Miso soup",
+        "Asian slaw with sesame dressing",
+        "Mango sticky rice dessert"
+      ],
+      "carbonFootprintSaved": {
+        "value": 520,
+        "unit": "kg CO2e"
+      },
+      "sufferingFootprintAvoided": {
+        "value": 115,
+        "unit": "animal lives"
+      }
+    },
+    {
+      "id": "menu-3",
+      "name": "American Comfort Classics",
+      "description": "Plant-based versions of beloved American favorites that will satisfy even the most traditional palates.",
+      "pricePerPerson": 14,
+      "totalPrice": 1400,
+      "items": [
+        "BBQ jackfruit sliders",
+        "Mac and cheese (cashew-based)",
+        "Buffalo cauliflower wings with ranch",
+        "Loaded potato skins",
+        "Caesar salad with chickpea croutons",
+        "Corn on the cob",
+        "Coleslaw",
+        "Chocolate chip cookies"
+      ],
+      "carbonFootprintSaved": {
+        "value": 580,
+        "unit": "kg CO2e"
+      },
+      "sufferingFootprintAvoided": {
+        "value": 125,
+        "unit": "animal lives"
+      }
+    },
+    {
+      "id": "menu-4",
+      "name": "Global Tapas Selection",
+      "description": "A worldly collection of small plates showcasing international flavors and creative plant-based preparations.",
+      "pricePerPerson": 17,
+      "totalPrice": 1700,
+      "items": [
+        "Spanish patatas bravas",
+        "Mexican street corn salad",
+        "Italian bruschetta trio",
+        "Indian samosas with mint chutney",
+        "Thai basil vegetable skewers",
+        "Greek spanakopita",
+        "Moroccan chickpea tagine",
+        "Assorted vegan dessert bites"
+      ],
+      "carbonFootprintSaved": {
+        "value": 495,
+        "unit": "kg CO2e"
+      },
+      "sufferingFootprintAvoided": {
+        "value": 110,
+        "unit": "animal lives"
+      }
+    }
+  ]
+}
