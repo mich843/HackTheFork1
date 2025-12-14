@@ -32,14 +32,14 @@ export const eventColorMap: Record<string, { primary: string; accent: string; li
     accent: '#374151',
     light: '#cbd5e1',
     gradient: 'from-slate-50 to-gray-100',
-    bgImage: 'https://images.unsplash.com/photo-1490818387583-1baba5e638af?w=1200&h=400&fit=crop'
+    bgImage: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1200&h=400&fit=crop'
   },
   'Other': {
     primary: '#059669',
     accent: '#16a34a',
     light: '#a7f3d0',
     gradient: 'from-green-50 to-emerald-100',
-    bgImage: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1200&h=400&fit=crop'
+    bgImage: 'https://images.unsplash.com/photo-1490818387583-1baba5e638af?w=1200&h=400&fit=crop'
   }
 };
 
