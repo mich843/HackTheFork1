@@ -4,7 +4,7 @@
       "id": "thanksgiving-1",
       "name": "Traditional Harvest Feast",
       "description": "Classic Thanksgiving favorites with modern plant-based twists",
-      "image": "https://images.unsplash.com/photo-1606728035253-49e8a23146de?w=600&h=400&fit=crop",
+      "image": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?w=600&h=400&fit=crop",
       "dishes": [
         {
           "name": "Herb-Roasted Tofurky with Mushroom Gravy",
@@ -93,7 +93,7 @@
       "id": "thanksgiving-3",
       "name": "Southern Comfort Thanksgiving",
       "description": "Down-home flavors with a compassionate twist",
-      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&h=400&fit=crop",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&h=400&fit=crop",
       "dishes": [
         {
           "name": "Jackfruit 'Pulled Pork' Sliders",

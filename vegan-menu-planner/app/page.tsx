@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation';
 const eventTypes = [
   {
     name: 'Thanksgiving Dinner',
-    image: 'https://images.unsplash.com/photo-1606728035253-49e8a23146de?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?w=400&h=300&fit=crop',
     description: 'Traditional feast with plant-based twists'
   },
   {

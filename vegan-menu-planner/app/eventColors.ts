@@ -4,7 +4,7 @@ export const eventColorMap: Record<string, { primary: string; accent: string; li
     accent: '#d97706',
     light: '#fed7aa',
     gradient: 'from-orange-50 to-amber-100',
-    bgImage: 'https://images.unsplash.com/photo-1606728035253-49e8a23146de?w=1200&h=400&fit=crop'
+    bgImage: 'https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?w=1200&h=400&fit=crop'
   },
   'Afterwork Buffet': {
     primary: '#2563eb',
