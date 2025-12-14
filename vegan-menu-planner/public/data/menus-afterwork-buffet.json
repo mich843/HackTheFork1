@@ -4,7 +4,7 @@
       "id": "afterwork-1",
       "name": "Global Street Food Station",
       "description": "Casual bites from around the world perfect for networking",
-      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&h=400&fit=crop",
+      "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&h=400&fit=crop",
       "dishes": [
         {
           "name": "Mini Tacos Bar",
@@ -30,17 +30,16 @@
       "pricePerPerson": 18.00,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 320,
+          "amount": 116,
           "unit": "kg CO2e",
           "comparison": "vs. traditional buffet with meat",
-          "equivalentTo": "Driving 800 miles in an average car"
+          "equivalentTo": "Driving 290 miles in an average car"
         },
         "sufferingPrevented": {
-          "animalsSpared": 68,
+          "animalsSpared": 20,
           "breakdown": {
-            "chickens": 55,
-            "pigs": 5,
-            "fish": 8
+            "chickens": 10,
+            "fish": 10
           },
           "description": "Animals spared from this meal"
         }
@@ -76,17 +75,15 @@
       "pricePerPerson": 19.50,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 295,
+          "amount": 100,
           "unit": "kg CO2e",
           "comparison": "vs. traditional tapas with seafood and meat",
-          "equivalentTo": "Taking 1 car off the road for 5 weeks"
+          "equivalentTo": "Taking 1 car off the road for 1.5 weeks"
         },
         "sufferingPrevented": {
-          "animalsSpared": 72,
+          "animalsSpared": 6,
           "breakdown": {
-            "chickens": 45,
-            "pigs": 10,
-            "fish": 17
+            "chickens": 6
           },
           "description": "Animals spared from this meal"
         }
@@ -122,17 +119,16 @@
       "pricePerPerson": 20.00,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 335,
+          "amount": 122,
           "unit": "kg CO2e",
           "comparison": "vs. traditional Asian buffet",
-          "equivalentTo": "Planting 15 trees"
+          "equivalentTo": "Planting 5 trees"
         },
         "sufferingPrevented": {
-          "animalsSpared": 85,
+          "animalsSpared": 16,
           "breakdown": {
-            "chickens": 50,
-            "pigs": 8,
-            "fish": 27
+            "chickens": 4,
+            "fish": 12
           },
           "description": "Animals spared from this meal"
         }
@@ -168,17 +164,15 @@
       "pricePerPerson": 21.00,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 280,
+          "amount": 104,
           "unit": "kg CO2e",
           "comparison": "vs. traditional Italian antipasti",
-          "equivalentTo": "Powering a home for 10 days"
+          "equivalentTo": "Powering a home for 3.5 days"
         },
         "sufferingPrevented": {
-          "animalsSpared": 58,
+          "animalsSpared": 5,
           "breakdown": {
-            "chickens": 35,
-            "cows": 15,
-            "fish": 8
+            "chickens": 5
           },
           "description": "Animals spared from this meal"
         }
@@ -214,17 +208,15 @@
       "pricePerPerson": 17.50,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 365,
+          "amount": 309,
           "unit": "kg CO2e",
           "comparison": "vs. traditional bar food",
-          "equivalentTo": "Not using a dryer for 2 years"
+          "equivalentTo": "Not using a dryer for 1.5 years"
         },
         "sufferingPrevented": {
-          "animalsSpared": 92,
+          "animalsSpared": 7,
           "breakdown": {
-            "chickens": 70,
-            "pigs": 12,
-            "cows": 10
+            "chickens": 7
           },
           "description": "Animals spared from this meal"
         }

@@ -27,19 +27,18 @@
           "description": "Seasonal fruit with rich chocolate brownies"
         }
       ],
-      "pricePerPerson": 20.00,
+      "pricePerPerson": 20.0,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 295,
+          "amount": 125,
           "unit": "kg CO2e",
           "comparison": "vs. traditional corporate lunch with meat",
-          "equivalentTo": "Driving 738 miles in an average car"
+          "equivalentTo": "Driving 310 miles in an average car"
         },
         "sufferingPrevented": {
-          "animalsSpared": 62,
+          "animalsSpared": 8,
           "breakdown": {
-            "chickens": 55,
-            "cows": 7
+            "chickens": 8
           },
           "description": "Animals spared from this meal"
         }
@@ -72,20 +71,19 @@
           "description": "Individual portions of green tea cheesecake"
         }
       ],
-      "pricePerPerson": 22.00,
+      "pricePerPerson": 22.0,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 315,
+          "amount": 135,
           "unit": "kg CO2e",
           "comparison": "vs. traditional international buffet",
-          "equivalentTo": "Taking a car off the road for 5 weeks"
+          "equivalentTo": "Taking a car off the road for 2 weeks"
         },
         "sufferingPrevented": {
-          "animalsSpared": 75,
+          "animalsSpared": 10,
           "breakdown": {
-            "chickens": 50,
-            "fish": 20,
-            "cows": 5
+            "chickens": 7,
+            "fish": 3
           },
           "description": "Animals spared from this meal"
         }
@@ -118,20 +116,19 @@
           "description": "Date and nut balls rolled in coconut"
         }
       ],
-      "pricePerPerson": 21.00,
+      "pricePerPerson": 21.0,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 285,
+          "amount": 115,
           "unit": "kg CO2e",
           "comparison": "vs. traditional lunch menu",
-          "equivalentTo": "Planting 13 trees"
+          "equivalentTo": "Planting 5 trees"
         },
         "sufferingPrevented": {
-          "animalsSpared": 58,
+          "animalsSpared": 7,
           "breakdown": {
-            "chickens": 45,
-            "fish": 10,
-            "cows": 3
+            "chickens": 6,
+            "fish": 1
           },
           "description": "Animals spared from this meal"
         }
@@ -164,20 +161,19 @@
           "description": "Variety of freshly baked cookies"
         }
       ],
-      "pricePerPerson": 18.50,
+      "pricePerPerson": 18.5,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 310,
+          "amount": 145,
           "unit": "kg CO2e",
           "comparison": "vs. traditional deli sandwich spread",
-          "equivalentTo": "Powering a home for 11 days"
+          "equivalentTo": "Powering a home for 5 days"
         },
         "sufferingPrevented": {
-          "animalsSpared": 68,
+          "animalsSpared": 9,
           "breakdown": {
-            "chickens": 50,
-            "pigs": 10,
-            "cows": 8
+            "chickens": 7,
+            "pigs": 2
           },
           "description": "Animals spared from this meal"
         }
@@ -210,20 +206,19 @@
           "description": "Individual portions of classic Italian dessert"
         }
       ],
-      "pricePerPerson": 23.00,
+      "pricePerPerson": 23.0,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 325,
+          "amount": 155,
           "unit": "kg CO2e",
           "comparison": "vs. traditional Italian lunch",
-          "equivalentTo": "Not using a dryer for 2 years"
+          "equivalentTo": "Not using a dryer for 9 months"
         },
         "sufferingPrevented": {
-          "animalsSpared": 72,
+          "animalsSpared": 10,
           "breakdown": {
-            "chickens": 48,
-            "cows": 20,
-            "fish": 4
+            "chickens": 8,
+            "cows": 2
           },
           "description": "Animals spared from this meal"
         }
