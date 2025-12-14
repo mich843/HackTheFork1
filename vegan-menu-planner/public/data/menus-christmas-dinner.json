@@ -4,7 +4,7 @@
       "id": "christmas-1",
       "name": "Traditional Holiday Feast",
       "description": "Classic Christmas dinner with elegant plant-based touches",
-      "image": "https://images.unsplash.com/photo-1512474932049-78ac69ede12c?w=600&h=400&fit=crop",
+      "image": "https://images.unsplash.com/photo-1576106875258-3e0b955ec92c?w=600&h=400&fit=crop",
       "dishes": [
         {
           "name": "Herb-Crusted Seitan Roast",
@@ -49,7 +49,7 @@
       "id": "christmas-2",
       "name": "European Winter Celebration",
       "description": "Continental flavors inspired by European Christmas traditions",
-      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&h=400&fit=crop",
+      "image": "https://images.unsplash.com/photo-1511688878353-3a2f5be94cd7?w=600&h=400&fit=crop",
       "dishes": [
         {
           "name": "Mushroom Wellington",
@@ -185,7 +185,7 @@
       "id": "christmas-5",
       "name": "Festive Comfort Classics",
       "description": "Cozy, familiar flavors for a heartwarming celebration",
-      "image": "https://images.unsplash.com/photo-1514517521153-1be72277b32f?w=600&h=400&fit=crop",
+      "image": "https://images.unsplash.com/photo-1482337183567-03b2f7cfb3d3?w=600&h=400&fit=crop",
       "dishes": [
         {
           "name": "Shepherd's Pie",
