@@ -26,12 +26,12 @@ const eventTypes = [
   },
   {
     name: 'Corporate Lunch',
-    image: 'https://images.unsplash.com/photo-1490818387583-1baba5e638af?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=300&fit=crop',
     description: 'Professional catering for meetings'
   },
   {
     name: 'Other',
-    image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1490818387583-1baba5e638af?w=400&h=300&fit=crop',
     description: 'Custom event planning'
   }
 ];
