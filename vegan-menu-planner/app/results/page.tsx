@@ -2,6 +2,7 @@
 
 import { useEffect, useState, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
+import { getEventColors } from '../eventColors';
 
 interface Dish {
   name: string;
@@ -26,6 +27,7 @@ interface Menu {
   id: string;
   name: string;
   description: string;
+  image: string;
   dishes: Dish[];
   pricePerPerson: number;
   impactMetrics: ImpactMetrics;
@@ -54,9 +56,14 @@ function ResultsContent() {
   const numberOfPeople = searchParams.get('people') || '';
   const budget = searchParams.get('budget') || '';
   const address = searchParams.get('address') || '';
+  const colors = getEventColors(eventType);
 
   useEffect(() => {
-    fetch('/data/menu-results.json')
+    // Load event-specific menu data
+    const eventSlug = eventType.toLowerCase().replace(/\s+/g, '-');
+    const dataPath = `/data/menus-${eventSlug}.json`;
+
+    fetch(dataPath)
       .then(res => res.json())
       .then(data => {
         setMenuData(data);
@@ -64,9 +71,15 @@ function ResultsContent() {
       })
       .catch(err => {
         console.error('Error loading menu data:', err);
-        setLoading(false);
+        // Fallback to generic data
+        fetch('/data/menu-results.json')
+          .then(res => res.json())
+          .then(data => {
+            setMenuData(data);
+            setLoading(false);
+          });
       });
-  }, []);
+  }, [eventType]);
 
   if (loading) {
     return (
@@ -96,23 +109,35 @@ function ResultsContent() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-100">
-      <div className="container mx-auto px-4 py-8 max-w-6xl">
+    <div className={`min-h-screen bg-gradient-to-br ${colors.gradient} relative`}>
+      {/* Event-themed background */}
+      <div
+        className="absolute inset-0 opacity-5"
+        style={{
+          backgroundImage: `url(${colors.bgImage})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundAttachment: 'fixed'
+        }}
+      />
+
+      <div className="container mx-auto px-4 py-8 max-w-7xl relative z-10">
         <button
           onClick={() => router.back()}
-          className="text-emerald-600 hover:text-emerald-700 font-medium mb-6 flex items-center gap-2"
+          style={{ color: colors.primary }}
+          className="font-medium mb-6 flex items-center gap-2 hover:opacity-80 transition-opacity"
         >
           ← Back
         </button>
 
-        <div className="bg-white rounded-2xl shadow-xl p-6 md:p-8 mb-8">
+        <div className="bg-white/95 backdrop-blur rounded-2xl shadow-xl p-6 md:p-8 mb-8">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Your Vegan Menu Options
           </h1>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
             <div>
               <p className="text-gray-600">Event</p>
-              <p className="font-semibold text-gray-900">{eventType}</p>
+              <p style={{ color: colors.primary }} className="font-semibold">{eventType}</p>
             </div>
             <div>
               <p className="text-gray-600">Guests</p>
@@ -129,7 +154,7 @@ function ResultsContent() {
           </div>
         </div>
 
-        <div className="grid gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {menuData.menus.map((menu) => {
             const totalPrice = menu.pricePerPerson * parseInt(numberOfPeople || '0');
             const isExpanded = selectedMenu === menu.id;
@@ -137,24 +162,33 @@ function ResultsContent() {
             return (
               <div
                 key={menu.id}
-                className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
+                className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 flex flex-col"
               >
-                <div className="p-6">
-                  <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
-                    <div className="flex-1">
-                      <h2 className="text-2xl font-bold text-gray-900 mb-2">{menu.name}</h2>
-                      <p className="text-gray-600 mb-4">{menu.description}</p>
-                    </div>
-                    <div className="text-right">
-                      <p className="text-sm text-gray-600">Price per person</p>
-                      <p className="text-3xl font-bold text-emerald-600">${menu.pricePerPerson}</p>
-                      <p className="text-sm text-gray-500">Total: ${totalPrice.toFixed(2)}</p>
-                    </div>
+                {/* Menu Image */}
+                <div className="relative h-56 overflow-hidden">
+                  <img
+                    src={menu.image}
+                    alt={menu.name}
+                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute top-4 right-4 bg-white px-3 py-2 rounded-full shadow-lg">
+                    <p className="text-sm font-bold" style={{ color: colors.primary }}>
+                      ${menu.pricePerPerson}/person
+                    </p>
+                  </div>
+                </div>
+
+                <div className="p-6 flex-1 flex flex-col">
+                  <div className="mb-4">
+                    <h2 className="text-2xl font-bold text-gray-900 mb-2">{menu.name}</h2>
+                    <p className="text-gray-600">{menu.description}</p>
+                    <p className="text-sm text-gray-500 mt-2">Total for {numberOfPeople} people: ${totalPrice.toFixed(2)}</p>
                   </div>
 
                   <button
                     onClick={() => setSelectedMenu(isExpanded ? null : menu.id)}
-                    className="text-emerald-600 hover:text-emerald-700 font-medium mb-4 flex items-center gap-2"
+                    style={{ color: colors.primary }}
+                    className="font-medium mb-4 text-left flex items-center gap-2 hover:opacity-80 transition-opacity"
                   >
                     {isExpanded ? '▼' : '▶'} {isExpanded ? 'Hide' : 'Show'} Menu Items
                   </button>
@@ -172,49 +206,41 @@ function ResultsContent() {
                     </div>
                   )}
 
-                  <div className="grid md:grid-cols-2 gap-6">
-                    <div className="bg-green-50 rounded-lg p-5 border-2 border-green-200">
-                      <div className="flex items-center gap-3 mb-3">
-                        <div className="text-3xl">🌍</div>
-                        <div>
-                          <h3 className="font-bold text-gray-900">Carbon Footprint Saved</h3>
-                          <p className="text-sm text-gray-600">{menu.impactMetrics.carbonSaved.comparison}</p>
-                        </div>
+                  <div className="grid gap-4 mb-4">
+                    <div className="bg-green-50 rounded-lg p-4 border border-green-200">
+                      <div className="flex items-center gap-2 mb-2">
+                        <div className="text-2xl">🌍</div>
+                        <h3 className="font-bold text-gray-900 text-sm">Carbon Saved</h3>
                       </div>
-                      <p className="text-3xl font-bold text-green-700 mb-2">
+                      <p className="text-2xl font-bold text-green-700 mb-1">
                         {menu.impactMetrics.carbonSaved.amount} {menu.impactMetrics.carbonSaved.unit}
                       </p>
-                      <p className="text-sm text-gray-600">
-                        💡 Equivalent to: {menu.impactMetrics.carbonSaved.equivalentTo}
+                      <p className="text-xs text-gray-600">
+                        💡 {menu.impactMetrics.carbonSaved.equivalentTo}
                       </p>
                     </div>
 
-                    <div className="bg-purple-50 rounded-lg p-5 border-2 border-purple-200">
-                      <div className="flex items-center gap-3 mb-3">
-                        <div className="text-3xl">💚</div>
-                        <div>
-                          <h3 className="font-bold text-gray-900">Animal Lives Spared</h3>
-                          <p className="text-sm text-gray-600">{menu.impactMetrics.sufferingPrevented.description}</p>
-                        </div>
+                    <div className="bg-purple-50 rounded-lg p-4 border border-purple-200">
+                      <div className="flex items-center gap-2 mb-2">
+                        <div className="text-2xl">💚</div>
+                        <h3 className="font-bold text-gray-900 text-sm">Animals Spared</h3>
                       </div>
-                      <p className="text-3xl font-bold text-purple-700 mb-2">
+                      <p className="text-2xl font-bold text-purple-700 mb-2">
                         {menu.impactMetrics.sufferingPrevented.animalsSpared} animals
                       </p>
-                      <div className="text-sm text-gray-600">
-                        <p className="font-medium mb-1">Breakdown:</p>
-                        <div className="flex flex-wrap gap-2">
-                          {Object.entries(menu.impactMetrics.sufferingPrevented.breakdown).map(([animal, count]) => (
-                            <span key={animal} className="bg-purple-100 px-2 py-1 rounded">
-                              {count} {animal}
-                            </span>
-                          ))}
-                        </div>
+                      <div className="flex flex-wrap gap-1">
+                        {Object.entries(menu.impactMetrics.sufferingPrevented.breakdown).map(([animal, count]) => (
+                          <span key={animal} className="bg-purple-100 px-2 py-1 rounded text-xs">
+                            {count} {animal}
+                          </span>
+                        ))}
                       </div>
                     </div>
                   </div>
 
                   <button
-                    className="w-full mt-6 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-3 rounded-lg transition-colors"
+                    style={{ backgroundColor: colors.primary }}
+                    className="w-full mt-auto text-white font-semibold py-3 rounded-lg transition-opacity hover:opacity-90"
                     onClick={() => alert('In the full version, this would proceed to catering booking!')}
                   >
                     Select This Menu

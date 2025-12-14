@@ -1,0 +1,244 @@
+{
+  "menus": [
+    {
+      "id": "afterwork-1",
+      "name": "Global Street Food Station",
+      "description": "Casual bites from around the world perfect for networking",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Mini Tacos Bar",
+          "description": "Spiced jackfruit and black bean tacos with all the fixings"
+        },
+        {
+          "name": "Vietnamese Spring Rolls",
+          "description": "Fresh rice paper rolls with peanut dipping sauce"
+        },
+        {
+          "name": "Mediterranean Mezze Platter",
+          "description": "Hummus, baba ganoush, dolmas, and pita bread"
+        },
+        {
+          "name": "Buffalo Cauliflower Bites",
+          "description": "Crispy cauliflower in spicy buffalo sauce with ranch"
+        },
+        {
+          "name": "Fruit Skewers with Chocolate Drizzle",
+          "description": "Fresh seasonal fruit on bamboo skewers"
+        }
+      ],
+      "pricePerPerson": 18.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 320,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional buffet with meat",
+          "equivalentTo": "Driving 800 miles in an average car"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 68,
+          "breakdown": {
+            "chickens": 55,
+            "pigs": 5,
+            "fish": 8
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    },
+    {
+      "id": "afterwork-2",
+      "name": "Tapas & Small Plates",
+      "description": "Spanish-inspired small bites for easy mingling",
+      "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Patatas Bravas",
+          "description": "Crispy potatoes with spicy tomato sauce and aioli"
+        },
+        {
+          "name": "Mushroom Croquettes",
+          "description": "Creamy mushroom filling in crispy breadcrumb coating"
+        },
+        {
+          "name": "Pan con Tomate",
+          "description": "Toasted bread rubbed with tomato and garlic"
+        },
+        {
+          "name": "Stuffed Peppers",
+          "description": "Roasted peppers filled with quinoa and herbs"
+        },
+        {
+          "name": "Churros with Chocolate Sauce",
+          "description": "Cinnamon sugar churros with rich chocolate dip"
+        }
+      ],
+      "pricePerPerson": 19.50,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 295,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional tapas with seafood and meat",
+          "equivalentTo": "Taking 1 car off the road for 5 weeks"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 72,
+          "breakdown": {
+            "chickens": 45,
+            "pigs": 10,
+            "fish": 17
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    },
+    {
+      "id": "afterwork-3",
+      "name": "Asian Fusion Grazing",
+      "description": "Pan-Asian favorites for casual dining",
+      "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Vegetable Dumplings",
+          "description": "Steamed and pan-fried dumplings with soy-ginger sauce"
+        },
+        {
+          "name": "Pad Thai Cups",
+          "description": "Individual portions of rice noodles in crispy wonton shells"
+        },
+        {
+          "name": "Edamame with Sea Salt",
+          "description": "Fresh soybeans steamed and lightly salted"
+        },
+        {
+          "name": "Veggie Sushi Rolls",
+          "description": "Cucumber, avocado, and carrot maki rolls"
+        },
+        {
+          "name": "Mochi Ice Cream Bites",
+          "description": "Japanese rice cake filled with coconut ice cream"
+        }
+      ],
+      "pricePerPerson": 20.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 335,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional Asian buffet",
+          "equivalentTo": "Planting 15 trees"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 85,
+          "breakdown": {
+            "chickens": 50,
+            "pigs": 8,
+            "fish": 27
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    },
+    {
+      "id": "afterwork-4",
+      "name": "Italian Wine Bar",
+      "description": "Classic Italian appetizers perfect with drinks",
+      "image": "https://images.unsplash.com/photo-1601924582907-e2c2f9dbf429?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Bruschetta Trio",
+          "description": "Tomato-basil, white bean, and olive tapenade on crostini"
+        },
+        {
+          "name": "Arancini Balls",
+          "description": "Crispy risotto balls stuffed with vegan mozzarella"
+        },
+        {
+          "name": "Caprese Skewers",
+          "description": "Cherry tomatoes, basil, and plant-based mozzarella"
+        },
+        {
+          "name": "Focaccia with Herb Oil",
+          "description": "Warm rosemary bread with infused olive oil"
+        },
+        {
+          "name": "Tiramisu Cups",
+          "description": "Individual coffee-soaked dessert portions"
+        }
+      ],
+      "pricePerPerson": 21.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 280,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional Italian antipasti",
+          "equivalentTo": "Powering a home for 10 days"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 58,
+          "breakdown": {
+            "chickens": 35,
+            "cows": 15,
+            "fish": 8
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    },
+    {
+      "id": "afterwork-5",
+      "name": "American Sports Bar",
+      "description": "Crowd-pleasing classics for a casual atmosphere",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "BBQ Jackfruit Sliders",
+          "description": "Pulled jackfruit on mini buns with coleslaw"
+        },
+        {
+          "name": "Loaded Nachos",
+          "description": "Tortilla chips with vegan cheese, jalapeños, and guacamole"
+        },
+        {
+          "name": "Pretzel Bites with Beer Cheese",
+          "description": "Soft pretzels with creamy cheese dip"
+        },
+        {
+          "name": "Wings Three Ways",
+          "description": "Cauliflower wings in buffalo, BBQ, and teriyaki"
+        },
+        {
+          "name": "Cookie Skillet",
+          "description": "Warm chocolate chip cookie served in cast iron"
+        }
+      ],
+      "pricePerPerson": 17.50,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 365,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional bar food",
+          "equivalentTo": "Not using a dryer for 2 years"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 92,
+          "breakdown": {
+            "chickens": 70,
+            "pigs": 12,
+            "cows": 10
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "generatedFor": {
+      "eventType": "Afterwork Buffet",
+      "numberOfPeople": 100,
+      "budget": 2000,
+      "address": ""
+    },
+    "dataSource": "hardcoded",
+    "timestamp": "2025-12-14T00:00:00Z"
+  }
+}

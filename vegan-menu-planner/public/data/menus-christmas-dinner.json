@@ -1,0 +1,244 @@
+{
+  "menus": [
+    {
+      "id": "christmas-1",
+      "name": "Traditional Holiday Feast",
+      "description": "Classic Christmas dinner with elegant plant-based touches",
+      "image": "https://images.unsplash.com/photo-1512474932049-78ac69ede12c?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Herb-Crusted Seitan Roast",
+          "description": "Golden roast with rosemary and thyme, served with rich gravy"
+        },
+        {
+          "name": "Roasted Brussels Sprouts with Chestnuts",
+          "description": "Caramelized sprouts with toasted chestnuts and cranberries"
+        },
+        {
+          "name": "Creamy Mashed Potatoes",
+          "description": "Fluffy potatoes whipped with plant-based butter and cream"
+        },
+        {
+          "name": "Candied Yams",
+          "description": "Sweet potatoes glazed with brown sugar and pecans"
+        },
+        {
+          "name": "Yule Log Cake",
+          "description": "Chocolate sponge rolled with vanilla cream, decorated festively"
+        }
+      ],
+      "pricePerPerson": 26.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 455,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional Christmas roast",
+          "equivalentTo": "Driving 1,140 miles in an average car"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 115,
+          "breakdown": {
+            "turkeys": 6,
+            "pigs": 8,
+            "chickens": 101
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    },
+    {
+      "id": "christmas-2",
+      "name": "European Winter Celebration",
+      "description": "Continental flavors inspired by European Christmas traditions",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Mushroom Wellington",
+          "description": "Mixed mushrooms and lentils wrapped in golden puff pastry"
+        },
+        {
+          "name": "Red Cabbage with Apples",
+          "description": "Braised cabbage with cinnamon and cloves"
+        },
+        {
+          "name": "Potato Gratin",
+          "description": "Layered potatoes baked in creamy cashew sauce"
+        },
+        {
+          "name": "Green Bean Almondine",
+          "description": "Crisp-tender beans with toasted almonds and lemon"
+        },
+        {
+          "name": "Stollen Bread Pudding",
+          "description": "Traditional German fruit bread transformed into dessert"
+        }
+      ],
+      "pricePerPerson": 28.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 430,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional European Christmas meal",
+          "equivalentTo": "Taking a car off the road for 7 weeks"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 108,
+          "breakdown": {
+            "turkeys": 6,
+            "pigs": 10,
+            "chickens": 92
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    },
+    {
+      "id": "christmas-3",
+      "name": "Modern Holiday Elegance",
+      "description": "Contemporary takes on festive favorites",
+      "image": "https://images.unsplash.com/photo-1576106875258-3e0b955ec92c?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Butternut Squash Ravioli",
+          "description": "House-made pasta with sage brown butter sauce"
+        },
+        {
+          "name": "Pomegranate-Glazed Roasted Vegetables",
+          "description": "Seasonal vegetables with jewel-like pomegranate seeds"
+        },
+        {
+          "name": "Wild Mushroom Risotto",
+          "description": "Creamy arborio rice with truffle oil"
+        },
+        {
+          "name": "Arugula Salad with Pears",
+          "description": "Peppery greens with caramelized pears and candied walnuts"
+        },
+        {
+          "name": "Dark Chocolate Torte",
+          "description": "Decadent flourless cake with raspberry coulis"
+        }
+      ],
+      "pricePerPerson": 30.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 405,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional holiday dinner",
+          "equivalentTo": "Planting 18 trees"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 102,
+          "breakdown": {
+            "turkeys": 6,
+            "chickens": 88,
+            "fish": 8
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    },
+    {
+      "id": "christmas-4",
+      "name": "Nordic Christmas Table",
+      "description": "Scandinavian-inspired festive spread",
+      "image": "https://images.unsplash.com/photo-1482337183567-03b2f7cfb3d3?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Gravlax-Style Carrot Lox",
+          "description": "Cured carrots served on crackers with dill cream"
+        },
+        {
+          "name": "Root Vegetable Casserole",
+          "description": "Traditional Nordic mix of rutabaga, carrot, and potato"
+        },
+        {
+          "name": "Pickled Beets and Herring Mushrooms",
+          "description": "Marinated king oyster mushrooms with pickled beets"
+        },
+        {
+          "name": "Mulled Wine-Braised Red Cabbage",
+          "description": "Sweet and tangy cabbage with warming spices"
+        },
+        {
+          "name": "Rice Pudding with Berry Compote",
+          "description": "Creamy rice pudding topped with lingonberry sauce"
+        }
+      ],
+      "pricePerPerson": 24.50,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 385,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional Nordic Christmas feast",
+          "equivalentTo": "Powering a home for 13 days"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 118,
+          "breakdown": {
+            "pigs": 12,
+            "chickens": 85,
+            "fish": 21
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    },
+    {
+      "id": "christmas-5",
+      "name": "Festive Comfort Classics",
+      "description": "Cozy, familiar flavors for a heartwarming celebration",
+      "image": "https://images.unsplash.com/photo-1514517521153-1be72277b32f?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Shepherd's Pie",
+          "description": "Savory lentil and vegetable filling topped with mashed potatoes"
+        },
+        {
+          "name": "Honey-Glazed Carrots",
+          "description": "Baby carrots roasted with maple and fresh herbs"
+        },
+        {
+          "name": "Dinner Rolls with Herb Butter",
+          "description": "Warm, fluffy rolls with compound butter"
+        },
+        {
+          "name": "Winter Kale Salad",
+          "description": "Massaged kale with cranberries and citrus vinaigrette"
+        },
+        {
+          "name": "Gingerbread Trifle",
+          "description": "Layers of spiced cake, vanilla cream, and caramel"
+        }
+      ],
+      "pricePerPerson": 22.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 440,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional holiday roast",
+          "equivalentTo": "Not using a dryer for 3 years"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 112,
+          "breakdown": {
+            "turkeys": 6,
+            "pigs": 9,
+            "chickens": 97
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "generatedFor": {
+      "eventType": "Christmas Dinner",
+      "numberOfPeople": 100,
+      "budget": 2000,
+      "address": ""
+    },
+    "dataSource": "hardcoded",
+    "timestamp": "2025-12-14T00:00:00Z"
+  }
+}
