@@ -112,7 +112,7 @@ function ResultsContent() {
     <div className={`min-h-screen bg-gradient-to-br ${colors.gradient} relative`}>
       {/* Event-themed background */}
       <div
-        className="absolute inset-0 opacity-15"
+        className="absolute inset-0 opacity-35"
         style={{
           backgroundImage: `url(${colors.bgImage})`,
           backgroundSize: 'cover',

@@ -4,6 +4,7 @@
       "id": "menu-1",
       "name": "Mediterranean Feast",
       "description": "A vibrant spread featuring Mediterranean flavors with fresh ingredients and bold spices",
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=600&h=400&fit=crop",
       "dishes": [
         {
           "name": "Hummus & Falafel Bar",
@@ -48,6 +49,7 @@
       "id": "menu-2",
       "name": "Asian Fusion Buffet",
       "description": "A delicious journey through Asian cuisines with plant-based twists on classic favorites",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&h=400&fit=crop",
       "dishes": [
         {
           "name": "Spring Rolls & Dumplings",
@@ -93,6 +95,7 @@
       "id": "menu-3",
       "name": "American Comfort Classics",
       "description": "Familiar favorites reimagined with plant-based ingredients - comfort food without compromise",
+      "image": "https://images.unsplash.com/photo-1481070555726-e2fe8357725c?w=600&h=400&fit=crop",
       "dishes": [
         {
           "name": "BBQ Pulled Jackfruit Sliders",
@@ -138,6 +141,7 @@
       "id": "menu-4",
       "name": "Italian Trattoria",
       "description": "Classic Italian dishes showcasing the naturally plant-rich cuisine of Italy",
+      "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600&h=400&fit=crop",
       "dishes": [
         {
           "name": "Bruschetta & Antipasti Board",
@@ -182,6 +186,7 @@
       "id": "menu-5",
       "name": "Global Street Food",
       "description": "An exciting mix of street food favorites from around the world",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=400&fit=crop",
       "dishes": [
         {
           "name": "Tacos Al Pastor",

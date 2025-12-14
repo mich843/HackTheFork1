@@ -6,32 +6,32 @@ import { useRouter } from 'next/navigation';
 const eventTypes = [
   {
     name: 'Thanksgiving Dinner',
-    image: 'https://images.unsplash.com/photo-1606728035253-49e8a23146de?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1607623488235-e2bf51a2c7e0?w=400&h=300&fit=crop',
     description: 'Traditional feast with plant-based twists'
   },
   {
     name: 'Afterwork Buffet',
-    image: 'https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=300&fit=crop',
     description: 'Casual networking and delicious bites'
   },
   {
     name: 'Christmas Dinner',
-    image: 'https://images.unsplash.com/photo-1512474932049-78ac69ede12c?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1576106875258-3e0b955ec92c?w=400&h=300&fit=crop',
     description: 'Festive holiday celebration meals'
   },
   {
     name: 'Wedding Reception',
-    image: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1505236858219-8359eb29e329?w=400&h=300&fit=crop',
     description: 'Elegant dining for your special day'
   },
   {
     name: 'Corporate Lunch',
-    image: 'https://images.unsplash.com/photo-1556761175-4b46a572b786?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1490818387583-1baba5e638af?w=400&h=300&fit=crop',
     description: 'Professional catering for meetings'
   },
   {
     name: 'Other',
-    image: 'https://images.unsplash.com/photo-1533777324565-a040eb52facd?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=300&fit=crop',
     description: 'Custom event planning'
   }
 ];
