@@ -1,82 +1,85 @@
 'use client';
 
-import { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import { eventThemes } from './lib/eventThemes';
 
 const eventTypes = [
   'Thanksgiving Dinner',
   'Afterwork Buffet',
   'Christmas Dinner',
-  'Birthday Party',
   'Wedding Reception',
   'Corporate Lunch',
-  'Holiday Potluck',
   'Other'
 ];
 
 export default function Home() {
   const router = useRouter();
-  const [selectedEvent, setSelectedEvent] = useState('');
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (selectedEvent) {
-      router.push(`/details?event=${encodeURIComponent(selectedEvent)}`);
-    }
+  const handleEventSelect = (event: string) => {
+    router.push(`/details?event=${encodeURIComponent(event)}`);
   };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-100">
-      <div className="container mx-auto px-4 py-12 max-w-2xl">
-        <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
-          <div className="text-center mb-8">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-3">
-              🌱 Vegan Event Planner
-            </h1>
-            <p className="text-lg text-gray-600">
-              Plan your perfect vegan menu and see the positive impact you&apos;re making
-            </p>
-          </div>
-
-          <form onSubmit={handleSubmit} className="space-y-6">
-            <div>
-              <label htmlFor="event" className="block text-sm font-semibold text-gray-700 mb-3">
-                What type of event are you planning?
-              </label>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                {eventTypes.map((event) => (
-                  <button
-                    key={event}
-                    type="button"
-                    onClick={() => setSelectedEvent(event)}
-                    className={`px-4 py-3 rounded-lg text-left transition-all ${
-                      selectedEvent === event
-                        ? 'bg-emerald-600 text-white shadow-lg scale-105'
-                        : 'bg-gray-50 text-gray-700 hover:bg-gray-100 border border-gray-200'
-                    }`}
-                  >
-                    {event}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            <button
-              type="submit"
-              disabled={!selectedEvent}
-              className={`w-full py-4 px-6 rounded-lg font-semibold text-lg transition-all ${
-                selectedEvent
-                  ? 'bg-emerald-600 hover:bg-emerald-700 text-white shadow-lg hover:shadow-xl'
-                  : 'bg-gray-300 text-gray-500 cursor-not-allowed'
-              }`}
-            >
-              Continue to Details
-            </button>
-          </form>
+      <div className="container mx-auto px-4 py-12 max-w-6xl">
+        <div className="text-center mb-12">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-3">
+            🌱 Vegan Event Planner
+          </h1>
+          <p className="text-lg text-gray-600">
+            Plan your perfect vegan menu and see the positive impact you&apos;re making
+          </p>
         </div>
 
-        <div className="mt-8 text-center text-sm text-gray-600">
-          <p>🌍 Every vegan meal makes a difference for our planet and animals</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+          {eventTypes.map((event) => {
+            const theme = eventThemes[event];
+            return (
+              <button
+                key={event}
+                onClick={() => handleEventSelect(event)}
+                className="group bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
+              >
+                <div className={`h-48 bg-gradient-to-br ${theme.imageGradient} flex items-center justify-center relative overflow-hidden`}>
+                  <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-10 transition-opacity"></div>
+                  <span className="text-8xl transform group-hover:scale-110 transition-transform duration-300">
+                    {theme.icon}
+                  </span>
+                </div>
+                <div className="p-6">
+                  <h2 className="text-xl font-bold text-gray-900 mb-2">
+                    {event}
+                  </h2>
+                  <p className="text-sm text-gray-600 mb-4">
+                    {theme.description}
+                  </p>
+                  <div className={`inline-block px-4 py-2 rounded-full text-sm font-semibold bg-${theme.primaryColor} text-white`}>
+                    View Menus →
+                  </div>
+                </div>
+              </button>
+            );
+          })}
+        </div>
+
+        <div className="bg-white/80 backdrop-blur rounded-xl p-6 shadow-lg">
+          <div className="grid md:grid-cols-3 gap-6 text-center">
+            <div>
+              <div className="text-3xl mb-2">🌍</div>
+              <h3 className="font-bold text-gray-900 mb-1">Carbon Conscious</h3>
+              <p className="text-sm text-gray-600">Reduce your event&apos;s environmental impact</p>
+            </div>
+            <div>
+              <div className="text-3xl mb-2">💚</div>
+              <h3 className="font-bold text-gray-900 mb-1">Cruelty-Free</h3>
+              <p className="text-sm text-gray-600">100% plant-based, no animal suffering</p>
+            </div>
+            <div>
+              <div className="text-3xl mb-2">🌱</div>
+              <h3 className="font-bold text-gray-900 mb-1">Delicious</h3>
+              <p className="text-sm text-gray-600">Amazing flavors your guests will love</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

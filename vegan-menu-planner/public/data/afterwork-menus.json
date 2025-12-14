@@ -1,0 +1,231 @@
+{
+  "menus": [
+    {
+      "id": "afterwork-1",
+      "name": "Mediterranean Tapas Bar",
+      "description": "Small plates perfect for networking and casual conversation",
+      "dishes": [
+        {
+          "name": "Hummus & Falafel Platter",
+          "description": "Creamy hummus varieties, crispy falafels, and warm pita"
+        },
+        {
+          "name": "Stuffed Grape Leaves",
+          "description": "Rice and herb filled dolmas with lemon"
+        },
+        {
+          "name": "Marinated Olives & Vegetables",
+          "description": "Assorted olives, peppers, and artichokes"
+        },
+        {
+          "name": "Baba Ganoush",
+          "description": "Smoky eggplant dip with tahini"
+        },
+        {
+          "name": "Baklava Bites",
+          "description": "Mini phyllo pastries with nuts and syrup"
+        }
+      ],
+      "pricePerPerson": 18.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 285,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional meat and cheese tapas",
+          "equivalentTo": "Driving 710 miles in an average car"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 42,
+          "breakdown": {
+            "chickens": 38,
+            "cows": 4
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    },
+    {
+      "id": "afterwork-2",
+      "name": "Asian Street Food Station",
+      "description": "Exciting flavors from across Asia in bite-sized portions",
+      "dishes": [
+        {
+          "name": "Spring Rolls & Dumplings",
+          "description": "Crispy spring rolls and steamed vegetable dumplings"
+        },
+        {
+          "name": "Edamame with Sea Salt",
+          "description": "Steamed soybeans with flaky sea salt"
+        },
+        {
+          "name": "Vegetable Satay Skewers",
+          "description": "Grilled vegetables with peanut sauce"
+        },
+        {
+          "name": "Miso Soup Shooters",
+          "description": "Individual portions of warm miso soup"
+        },
+        {
+          "name": "Mochi Ice Cream",
+          "description": "Assorted flavors of mochi dessert"
+        }
+      ],
+      "pricePerPerson": 19.50,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 310,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional Asian appetizers with meat and seafood",
+          "equivalentTo": "Powering a home for 11 days"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 65,
+          "breakdown": {
+            "chickens": 45,
+            "fish": 20
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    },
+    {
+      "id": "afterwork-3",
+      "name": "Slider & Finger Food Bar",
+      "description": "American favorites in convenient handheld portions",
+      "dishes": [
+        {
+          "name": "BBQ Jackfruit Sliders",
+          "description": "Pulled jackfruit on mini buns with coleslaw"
+        },
+        {
+          "name": "Buffalo Cauliflower Bites",
+          "description": "Crispy cauliflower in buffalo sauce with ranch"
+        },
+        {
+          "name": "Loaded Potato Skins",
+          "description": "Crispy potato skins with toppings"
+        },
+        {
+          "name": "Veggie Quesadilla Triangles",
+          "description": "Grilled quesadillas cut into bite-sized pieces"
+        },
+        {
+          "name": "Brownie Bites",
+          "description": "Rich chocolate brownies in mini portions"
+        }
+      ],
+      "pricePerPerson": 17.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 395,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional meat-based appetizers",
+          "equivalentTo": "Taking 1.5 cars off the road for a month"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 55,
+          "breakdown": {
+            "cows": 3,
+            "pigs": 5,
+            "chickens": 47
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    },
+    {
+      "id": "afterwork-4",
+      "name": "Gourmet Bruschetta Bar",
+      "description": "Elegant Italian-inspired small plates",
+      "dishes": [
+        {
+          "name": "Classic Tomato Bruschetta",
+          "description": "Fresh tomatoes, basil, and garlic on toasted bread"
+        },
+        {
+          "name": "Mushroom & Truffle Crostini",
+          "description": "Sautéed mushrooms with truffle oil"
+        },
+        {
+          "name": "White Bean & Rosemary Spread",
+          "description": "Creamy white bean dip with fresh rosemary"
+        },
+        {
+          "name": "Caprese Skewers",
+          "description": "Cherry tomatoes, basil, and plant-based mozzarella"
+        },
+        {
+          "name": "Lemon Panna Cotta",
+          "description": "Light lemon dessert in small glasses"
+        }
+      ],
+      "pricePerPerson": 20.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 270,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional Italian appetizers with cheese and meat",
+          "equivalentTo": "Planting 12 trees and letting them grow for 10 years"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 38,
+          "breakdown": {
+            "cows": 10,
+            "chickens": 28
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    },
+    {
+      "id": "afterwork-5",
+      "name": "Mexican Fiesta Bites",
+      "description": "Vibrant Mexican flavors in shareable portions",
+      "dishes": [
+        {
+          "name": "Mini Tacos",
+          "description": "Assorted plant-based tacos with toppings"
+        },
+        {
+          "name": "Guacamole & Salsa Bar",
+          "description": "Fresh guacamole and variety of salsas with chips"
+        },
+        {
+          "name": "Black Bean Nachos",
+          "description": "Loaded nachos with black beans and cashew cheese"
+        },
+        {
+          "name": "Elote Cups",
+          "description": "Mexican street corn in individual cups"
+        },
+        {
+          "name": "Churro Bites",
+          "description": "Mini churros with chocolate dipping sauce"
+        }
+      ],
+      "pricePerPerson": 16.50,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 340,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional Mexican appetizers with meat and cheese",
+          "equivalentTo": "Not using a dryer for 2 years"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 58,
+          "breakdown": {
+            "chickens": 40,
+            "cows": 8,
+            "pigs": 10
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "eventType": "Afterwork Buffet",
+    "dataSource": "curated",
+    "timestamp": "2025-12-14T00:00:00Z"
+  }
+}

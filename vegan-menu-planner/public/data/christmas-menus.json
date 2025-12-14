@@ -1,0 +1,278 @@
+{
+  "menus": [
+    {
+      "id": "christmas-1",
+      "name": "Classic Christmas Feast",
+      "description": "Traditional holiday favorites with a plant-based twist",
+      "dishes": [
+        {
+          "name": "Chestnut & Cranberry Wellington",
+          "description": "Flaky pastry filled with chestnuts, cranberries, and herbs"
+        },
+        {
+          "name": "Roasted Brussels Sprouts with Pomegranate",
+          "description": "Caramelized Brussels sprouts with pomegranate seeds"
+        },
+        {
+          "name": "Herb-Roasted Potatoes",
+          "description": "Crispy potatoes with rosemary and thyme"
+        },
+        {
+          "name": "Glazed Carrots & Parsnips",
+          "description": "Root vegetables with maple glaze"
+        },
+        {
+          "name": "Yule Log Cake",
+          "description": "Chocolate sponge cake rolled with cream filling"
+        }
+      ],
+      "pricePerPerson": 26.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 540,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional Christmas dinner with roast beef or ham",
+          "equivalentTo": "Driving 1,350 miles in an average car"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 115,
+          "breakdown": {
+            "cows": 8,
+            "pigs": 7,
+            "cows (dairy)": 100
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    },
+    {
+      "id": "christmas-2",
+      "name": "Nordic Winter Celebration",
+      "description": "Scandinavian-inspired holiday dishes",
+      "dishes": [
+        {
+          "name": "Beetroot Gravlax",
+          "description": "Marinated carrot 'salmon' with dill and mustard sauce"
+        },
+        {
+          "name": "Mushroom & Barley Risotto",
+          "description": "Creamy barley with wild mushrooms"
+        },
+        {
+          "name": "Roasted Root Vegetable Medley",
+          "description": "Seasonal roots with lingonberry sauce"
+        },
+        {
+          "name": "Red Cabbage Slaw",
+          "description": "Braised red cabbage with apples and spices"
+        },
+        {
+          "name": "Gingerbread Cake",
+          "description": "Spiced gingerbread with vanilla cream"
+        }
+      ],
+      "pricePerPerson": 24.50,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 515,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional Nordic Christmas dinner",
+          "equivalentTo": "Powering a home for 18 days"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 125,
+          "breakdown": {
+            "pigs": 8,
+            "fish": 15,
+            "cows": 102
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    },
+    {
+      "id": "christmas-3",
+      "name": "Mediterranean Christmas",
+      "description": "Warm Mediterranean flavors for the holiday season",
+      "dishes": [
+        {
+          "name": "Stuffed Portobello Mushrooms",
+          "description": "Large mushrooms filled with herbed breadcrumbs and pine nuts"
+        },
+        {
+          "name": "Lemon-Herb Roasted Vegetables",
+          "description": "Zucchini, peppers, and eggplant with lemon and oregano"
+        },
+        {
+          "name": "Saffron Risotto",
+          "description": "Creamy risotto infused with saffron"
+        },
+        {
+          "name": "Arugula & Orange Salad",
+          "description": "Fresh arugula with orange segments and almonds"
+        },
+        {
+          "name": "Panettone Bread Pudding",
+          "description": "Italian Christmas bread transformed into rich pudding"
+        }
+      ],
+      "pricePerPerson": 25.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 490,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional Mediterranean Christmas dinner",
+          "equivalentTo": "Taking 1.8 cars off the road for a month"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 108,
+          "breakdown": {
+            "chickens": 35,
+            "fish": 10,
+            "cows": 63
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    },
+    {
+      "id": "christmas-4",
+      "name": "British Christmas Dinner",
+      "description": "Traditional British holiday meal, plant-based style",
+      "dishes": [
+        {
+          "name": "Nut Roast with Sage",
+          "description": "Classic British nut roast with herbs and vegetables"
+        },
+        {
+          "name": "Yorkshire Puddings",
+          "description": "Light and crispy plant-based Yorkshire puddings"
+        },
+        {
+          "name": "Roast Potatoes & Parsnips",
+          "description": "Crispy roasted potatoes and parsnips"
+        },
+        {
+          "name": "Pigs in Blankets",
+          "description": "Plant-based sausages wrapped in pastry"
+        },
+        {
+          "name": "Christmas Pudding",
+          "description": "Traditional steamed pudding with brandy sauce"
+        }
+      ],
+      "pricePerPerson": 23.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 535,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional British Christmas dinner with turkey",
+          "equivalentTo": "Planting 24 trees and letting them grow for 10 years"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 118,
+          "breakdown": {
+            "turkeys": 5,
+            "pigs": 8,
+            "cows": 105
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    },
+    {
+      "id": "christmas-5",
+      "name": "French Réveillon Feast",
+      "description": "Elegant French Christmas Eve celebration",
+      "dishes": [
+        {
+          "name": "Mushroom Pâté en Croûte",
+          "description": "Savory mushroom pâté wrapped in golden pastry"
+        },
+        {
+          "name": "Ratatouille Provençale",
+          "description": "Classic French vegetable stew with herbs de Provence"
+        },
+        {
+          "name": "Potato Gratin",
+          "description": "Layered potatoes in creamy sauce"
+        },
+        {
+          "name": "Haricots Verts Amandine",
+          "description": "French green beans with toasted almonds"
+        },
+        {
+          "name": "Bûche de Noël",
+          "description": "Traditional French yule log cake"
+        }
+      ],
+      "pricePerPerson": 28.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 525,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional French Christmas dinner",
+          "equivalentTo": "Not using a dryer for 3 years"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 122,
+          "breakdown": {
+            "ducks": 6,
+            "chickens": 10,
+            "cows": 106
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    },
+    {
+      "id": "christmas-6",
+      "name": "American Holiday Comfort",
+      "description": "Cozy American Christmas favorites",
+      "dishes": [
+        {
+          "name": "Glazed Holiday Ham",
+          "description": "Plant-based ham with pineapple and brown sugar glaze"
+        },
+        {
+          "name": "Green Bean Casserole",
+          "description": "Classic casserole with crispy onion topping"
+        },
+        {
+          "name": "Sweet Potato Casserole",
+          "description": "Mashed sweet potatoes with pecan streusel"
+        },
+        {
+          "name": "Cranberry Sauce",
+          "description": "Homemade cranberry sauce with orange"
+        },
+        {
+          "name": "Peppermint Chocolate Cake",
+          "description": "Rich chocolate cake with peppermint frosting"
+        }
+      ],
+      "pricePerPerson": 22.50,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 550,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional American Christmas dinner with ham",
+          "equivalentTo": "Driving 1,375 miles in an average car"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 120,
+          "breakdown": {
+            "pigs": 10,
+            "cows": 110
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "eventType": "Christmas Dinner",
+    "dataSource": "curated",
+    "timestamp": "2025-12-14T00:00:00Z"
+  }
+}

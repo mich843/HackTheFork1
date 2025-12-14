@@ -1,0 +1,273 @@
+{
+  "menus": [
+    {
+      "id": "thanksgiving-1",
+      "name": "Traditional Harvest Feast",
+      "description": "Classic Thanksgiving favorites reimagined with plant-based ingredients",
+      "dishes": [
+        {
+          "name": "Herb-Roasted Stuffed Squash",
+          "description": "Butternut squash filled with wild rice, cranberries, and sage stuffing"
+        },
+        {
+          "name": "Mushroom Wellington",
+          "description": "Savory mushroom duxelles wrapped in golden puff pastry"
+        },
+        {
+          "name": "Maple-Glazed Root Vegetables",
+          "description": "Roasted carrots, parsnips, and sweet potatoes with maple glaze"
+        },
+        {
+          "name": "Green Bean Almondine",
+          "description": "Fresh green beans with toasted almonds and lemon"
+        },
+        {
+          "name": "Pumpkin Pie & Apple Crisp",
+          "description": "Classic pumpkin pie and warm apple crisp with coconut whipped cream"
+        }
+      ],
+      "pricePerPerson": 24.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 520,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional turkey dinner with dairy sides",
+          "equivalentTo": "Driving 1,300 miles in an average car"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 105,
+          "breakdown": {
+            "turkeys": 5,
+            "cows": 100
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    },
+    {
+      "id": "thanksgiving-2",
+      "name": "Modern Autumn Celebration",
+      "description": "Contemporary takes on Thanksgiving classics with global influences",
+      "dishes": [
+        {
+          "name": "Cauliflower Steaks with Chimichurri",
+          "description": "Thick-cut roasted cauliflower with vibrant herb sauce"
+        },
+        {
+          "name": "Quinoa-Stuffed Acorn Squash",
+          "description": "Roasted acorn squash filled with quinoa, pecans, and dried fruit"
+        },
+        {
+          "name": "Brussels Sprouts with Balsamic Glaze",
+          "description": "Crispy roasted Brussels sprouts with sweet balsamic reduction"
+        },
+        {
+          "name": "Cranberry-Orange Relish",
+          "description": "Fresh cranberry sauce with orange zest and walnuts"
+        },
+        {
+          "name": "Pecan Tart & Chocolate Mousse",
+          "description": "Rich pecan tart and silky chocolate avocado mousse"
+        }
+      ],
+      "pricePerPerson": 26.50,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 495,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional turkey dinner",
+          "equivalentTo": "Powering a home for 17 days"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 108,
+          "breakdown": {
+            "turkeys": 5,
+            "cows": 103
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    },
+    {
+      "id": "thanksgiving-3",
+      "name": "Rustic Farmhouse Spread",
+      "description": "Hearty, comforting dishes inspired by farm-to-table traditions",
+      "dishes": [
+        {
+          "name": "Lentil & Mushroom Loaf",
+          "description": "Savory loaf with lentils, mushrooms, and herbs, topped with tomato glaze"
+        },
+        {
+          "name": "Garlic Mashed Potatoes",
+          "description": "Creamy mashed potatoes with roasted garlic and chives"
+        },
+        {
+          "name": "Roasted Root Vegetable Medley",
+          "description": "Seasonal root vegetables roasted with rosemary and thyme"
+        },
+        {
+          "name": "Kale & Apple Salad",
+          "description": "Massaged kale with crisp apples, pecans, and cider vinaigrette"
+        },
+        {
+          "name": "Sweet Potato Pie",
+          "description": "Spiced sweet potato pie with pecan crust"
+        }
+      ],
+      "pricePerPerson": 22.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 485,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional turkey dinner",
+          "equivalentTo": "Taking 1.8 cars off the road for a month"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 110,
+          "breakdown": {
+            "turkeys": 5,
+            "cows": 105
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    },
+    {
+      "id": "thanksgiving-4",
+      "name": "Gourmet Harvest Table",
+      "description": "Elevated plant-based cuisine for a sophisticated Thanksgiving",
+      "dishes": [
+        {
+          "name": "Wild Mushroom Tart",
+          "description": "Flaky pastry filled with assorted wild mushrooms and truffle oil"
+        },
+        {
+          "name": "Stuffed Portobello Caps",
+          "description": "Large portobello mushrooms stuffed with herbed breadcrumbs"
+        },
+        {
+          "name": "Roasted Delicata Squash",
+          "description": "Caramelized delicata squash rings with sage brown butter"
+        },
+        {
+          "name": "Arugula & Pear Salad",
+          "description": "Fresh arugula with poached pears, candied walnuts, and vinaigrette"
+        },
+        {
+          "name": "Chocolate Pecan Torte",
+          "description": "Rich chocolate torte with caramelized pecans"
+        }
+      ],
+      "pricePerPerson": 28.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 510,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional turkey dinner",
+          "equivalentTo": "Planting 23 trees and letting them grow for 10 years"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 112,
+          "breakdown": {
+            "turkeys": 5,
+            "cows": 107
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    },
+    {
+      "id": "thanksgiving-5",
+      "name": "Southern Comfort Thanksgiving",
+      "description": "Plant-based versions of beloved Southern Thanksgiving traditions",
+      "dishes": [
+        {
+          "name": "Cornbread Dressing",
+          "description": "Traditional cornbread stuffing with celery, onions, and sage"
+        },
+        {
+          "name": "Black-Eyed Pea Stew",
+          "description": "Hearty stew with black-eyed peas, collard greens, and tomatoes"
+        },
+        {
+          "name": "Candied Yams",
+          "description": "Sweet potatoes baked with brown sugar and pecans"
+        },
+        {
+          "name": "Collard Greens",
+          "description": "Slow-cooked collard greens with smoked paprika"
+        },
+        {
+          "name": "Bourbon Pecan Pie",
+          "description": "Classic pecan pie with a hint of bourbon"
+        }
+      ],
+      "pricePerPerson": 23.50,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 500,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional Southern turkey dinner",
+          "equivalentTo": "Not using a dryer for 3 years"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 106,
+          "breakdown": {
+            "turkeys": 5,
+            "cows": 101
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    },
+    {
+      "id": "thanksgiving-6",
+      "name": "Global Fusion Thanksgiving",
+      "description": "International flavors meet Thanksgiving traditions",
+      "dishes": [
+        {
+          "name": "Miso-Glazed Eggplant",
+          "description": "Japanese-inspired roasted eggplant with sweet miso glaze"
+        },
+        {
+          "name": "Moroccan Stuffed Pumpkin",
+          "description": "Whole pumpkin filled with spiced couscous and chickpeas"
+        },
+        {
+          "name": "Thai Coconut Green Beans",
+          "description": "Green beans in coconut curry sauce with basil"
+        },
+        {
+          "name": "Mediterranean Grain Salad",
+          "description": "Farro with roasted vegetables, olives, and herbs"
+        },
+        {
+          "name": "Cardamom Pear Tart",
+          "description": "Spiced pear tart with cardamom and pistachios"
+        }
+      ],
+      "pricePerPerson": 25.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 505,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional turkey dinner",
+          "equivalentTo": "Driving 1,260 miles in an average car"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 109,
+          "breakdown": {
+            "turkeys": 5,
+            "cows": 104
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "eventType": "Thanksgiving Dinner",
+    "dataSource": "curated",
+    "timestamp": "2025-12-14T00:00:00Z"
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "menus": [
+    {
+      "id": "wedding-1",
+      "name": "Elegant Garden Reception",
+      "description": "Sophisticated plant-based cuisine for your special day",
+      "dishes": [
+        {
+          "name": "Heirloom Tomato & Basil Tartlets",
+          "description": "Delicate pastry cups with fresh tomatoes and basil"
+        },
+        {
+          "name": "Stuffed Portobello Wellington",
+          "description": "Portobello mushrooms in puff pastry with herb filling"
+        },
+        {
+          "name": "Lemon-Herb Roasted Asparagus",
+          "description": "Fresh asparagus with lemon zest and herbs"
+        },
+        {
+          "name": "Wild Rice Pilaf",
+          "description": "Aromatic wild rice with dried fruits and nuts"
+        },
+        {
+          "name": "Vanilla Bean Panna Cotta",
+          "description": "Silky vanilla dessert with berry compote"
+        }
+      ],
+      "pricePerPerson": 32.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 450,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional wedding dinner with chicken or beef",
+          "equivalentTo": "Driving 1,125 miles in an average car"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 95,
+          "breakdown": {
+            "chickens": 50,
+            "cows": 45
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    },
+    {
+      "id": "wedding-2",
+      "name": "Mediterranean Romance",
+      "description": "Sun-kissed flavors for a memorable celebration",
+      "dishes": [
+        {
+          "name": "Mezze Platter",
+          "description": "Hummus, baba ganoush, olives, and warm pita"
+        },
+        {
+          "name": "Grilled Vegetable Tower",
+          "description": "Layered grilled vegetables with balsamic reduction"
+        },
+        {
+          "name": "Lemon Couscous",
+          "description": "Fluffy couscous with lemon, herbs, and pine nuts"
+        },
+        {
+          "name": "Roasted Red Pepper & Walnut Dip",
+          "description": "Muhammara with pomegranate molasses"
+        },
+        {
+          "name": "Pistachio Baklava",
+          "description": "Layers of phyllo with pistachios and honey syrup"
+        }
+      ],
+      "pricePerPerson": 30.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 420,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional Mediterranean wedding dinner",
+          "equivalentTo": "Powering a home for 14 days"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 88,
+          "breakdown": {
+            "chickens": 55,
+            "fish": 15,
+            "cows": 18
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    },
+    {
+      "id": "wedding-3",
+      "name": "Classic Formal Dinner",
+      "description": "Timeless elegance for a traditional wedding",
+      "dishes": [
+        {
+          "name": "French Onion Soup",
+          "description": "Rich caramelized onion soup with croutons"
+        },
+        {
+          "name": "Seitan Roulade",
+          "description": "Herb-crusted seitan with mushroom duxelles"
+        },
+        {
+          "name": "Duchess Potatoes",
+          "description": "Piped and baked potato rosettes"
+        },
+        {
+          "name": "Glazed Baby Carrots",
+          "description": "Tender carrots with herb butter glaze"
+        },
+        {
+          "name": "Chocolate Ganache Torte",
+          "description": "Rich chocolate cake with raspberry coulis"
+        }
+      ],
+      "pricePerPerson": 35.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 480,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional formal wedding dinner with beef",
+          "equivalentTo": "Taking 1.8 cars off the road for a month"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 102,
+          "breakdown": {
+            "cows": 12,
+            "chickens": 40,
+            "cows (dairy)": 50
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    },
+    {
+      "id": "wedding-4",
+      "name": "Rustic Farm-to-Table",
+      "description": "Seasonal ingredients celebrating local harvest",
+      "dishes": [
+        {
+          "name": "Heirloom Salad",
+          "description": "Mixed greens with seasonal vegetables and vinaigrette"
+        },
+        {
+          "name": "Stuffed Acorn Squash",
+          "description": "Roasted squash filled with quinoa and cranberries"
+        },
+        {
+          "name": "Roasted Root Vegetables",
+          "description": "Medley of seasonal roots with herbs"
+        },
+        {
+          "name": "Artisan Bread Selection",
+          "description": "Freshly baked breads with herb oil"
+        },
+        {
+          "name": "Apple Galette",
+          "description": "Rustic apple tart with vanilla cream"
+        }
+      ],
+      "pricePerPerson": 28.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 435,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional farm-to-table wedding dinner",
+          "equivalentTo": "Planting 20 trees and letting them grow for 10 years"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 92,
+          "breakdown": {
+            "chickens": 60,
+            "cows": 32
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    },
+    {
+      "id": "wedding-5",
+      "name": "Asian Fusion Elegance",
+      "description": "Contemporary Asian cuisine for a modern celebration",
+      "dishes": [
+        {
+          "name": "Miso-Glazed Eggplant",
+          "description": "Japanese eggplant with sweet miso glaze"
+        },
+        {
+          "name": "Thai Basil Tofu",
+          "description": "Crispy tofu with Thai basil and chili"
+        },
+        {
+          "name": "Coconut Jasmine Rice",
+          "description": "Fragrant rice cooked in coconut milk"
+        },
+        {
+          "name": "Asian Slaw",
+          "description": "Crisp vegetables with sesame-ginger dressing"
+        },
+        {
+          "name": "Matcha Cheesecake",
+          "description": "Green tea cheesecake with white chocolate"
+        }
+      ],
+      "pricePerPerson": 31.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 465,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional Asian wedding dinner",
+          "equivalentTo": "Not using a dryer for 2.5 years"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 98,
+          "breakdown": {
+            "chickens": 50,
+            "fish": 25,
+            "pigs": 23
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    },
+    {
+      "id": "wedding-6",
+      "name": "Italian Villa Romance",
+      "description": "Authentic Italian flavors for an unforgettable day",
+      "dishes": [
+        {
+          "name": "Caprese Salad",
+          "description": "Heirloom tomatoes with plant-based mozzarella and basil"
+        },
+        {
+          "name": "Eggplant Parmigiana",
+          "description": "Layered eggplant with marinara and cheese"
+        },
+        {
+          "name": "Truffle Risotto",
+          "description": "Creamy arborio rice with truffle oil"
+        },
+        {
+          "name": "Grilled Vegetables",
+          "description": "Zucchini, peppers, and eggplant with herbs"
+        },
+        {
+          "name": "Tiramisu",
+          "description": "Classic Italian dessert with espresso and cocoa"
+        }
+      ],
+      "pricePerPerson": 33.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 440,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional Italian wedding dinner",
+          "equivalentTo": "Driving 1,100 miles in an average car"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 85,
+          "breakdown": {
+            "chickens": 40,
+            "cows": 45
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "eventType": "Wedding Reception",
+    "dataSource": "curated",
+    "timestamp": "2025-12-14T00:00:00Z"
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "menus": [
+    {
+      "id": "corporate-1",
+      "name": "Executive Power Lunch",
+      "description": "Professional and efficient meal for busy executives",
+      "dishes": [
+        {
+          "name": "Caesar Salad",
+          "description": "Crisp romaine with plant-based Caesar dressing and croutons"
+        },
+        {
+          "name": "Grilled Vegetable Panini",
+          "description": "Pressed sandwich with roasted vegetables and pesto"
+        },
+        {
+          "name": "Tomato Basil Soup",
+          "description": "Creamy tomato soup with fresh basil"
+        },
+        {
+          "name": "Quinoa Power Bowl",
+          "description": "Quinoa with roasted vegetables and tahini dressing"
+        },
+        {
+          "name": "Fresh Fruit Platter",
+          "description": "Seasonal fruit selection"
+        }
+      ],
+      "pricePerPerson": 19.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 320,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional corporate lunch with meat and dairy",
+          "equivalentTo": "Driving 800 miles in an average car"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 52,
+          "breakdown": {
+            "chickens": 45,
+            "cows": 7
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    },
+    {
+      "id": "corporate-2",
+      "name": "International Business Buffet",
+      "description": "Global flavors for diverse corporate gatherings",
+      "dishes": [
+        {
+          "name": "Sushi Rolls",
+          "description": "Vegetable sushi with avocado, cucumber, and carrot"
+        },
+        {
+          "name": "Mediterranean Grain Bowl",
+          "description": "Farro with roasted vegetables and lemon dressing"
+        },
+        {
+          "name": "Indian Curry Station",
+          "description": "Chickpea curry with rice and naan bread"
+        },
+        {
+          "name": "Mexican Burrito Bowl",
+          "description": "Rice, beans, vegetables, and guacamole"
+        },
+        {
+          "name": "Assorted Cookies",
+          "description": "Variety of freshly baked cookies"
+        }
+      ],
+      "pricePerPerson": 21.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 365,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional international buffet",
+          "equivalentTo": "Powering a home for 13 days"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 68,
+          "breakdown": {
+            "chickens": 50,
+            "fish": 10,
+            "cows": 8
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    },
+    {
+      "id": "corporate-3",
+      "name": "Sandwich & Salad Bar",
+      "description": "Classic lunch options with fresh ingredients",
+      "dishes": [
+        {
+          "name": "Gourmet Sandwich Selection",
+          "description": "Variety of plant-based sandwiches and wraps"
+        },
+        {
+          "name": "Mixed Green Salad",
+          "description": "Fresh greens with assorted toppings and dressings"
+        },
+        {
+          "name": "Pasta Salad",
+          "description": "Rotini pasta with vegetables and Italian dressing"
+        },
+        {
+          "name": "Vegetable Crudités",
+          "description": "Fresh vegetables with hummus and ranch"
+        },
+        {
+          "name": "Brownies & Blondies",
+          "description": "Assorted chocolate and vanilla brownies"
+        }
+      ],
+      "pricePerPerson": 17.50,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 295,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional deli lunch",
+          "equivalentTo": "Taking 1.2 cars off the road for a month"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 48,
+          "breakdown": {
+            "chickens": 35,
+            "pigs": 5,
+            "cows": 8
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    },
+    {
+      "id": "corporate-4",
+      "name": "Healthy Bowl Station",
+      "description": "Nutritious and energizing meal options",
+      "dishes": [
+        {
+          "name": "Buddha Bowl Bar",
+          "description": "Build-your-own bowls with grains, proteins, and vegetables"
+        },
+        {
+          "name": "Smoothie Station",
+          "description": "Fresh fruit and vegetable smoothies"
+        },
+        {
+          "name": "Avocado Toast Bar",
+          "description": "Whole grain toast with avocado and toppings"
+        },
+        {
+          "name": "Chia Pudding Cups",
+          "description": "Chia pudding with fruit and granola"
+        },
+        {
+          "name": "Energy Balls",
+          "description": "Date and nut energy bites"
+        }
+      ],
+      "pricePerPerson": 20.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 310,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional health-focused lunch with animal products",
+          "equivalentTo": "Planting 14 trees and letting them grow for 10 years"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 55,
+          "breakdown": {
+            "chickens": 40,
+            "cows": 15
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    },
+    {
+      "id": "corporate-5",
+      "name": "Pizza & Pasta Lunch",
+      "description": "Crowd-pleasing Italian favorites",
+      "dishes": [
+        {
+          "name": "Artisan Pizza Selection",
+          "description": "Variety of plant-based pizzas with creative toppings"
+        },
+        {
+          "name": "Pasta Primavera",
+          "description": "Penne with seasonal vegetables and marinara"
+        },
+        {
+          "name": "Garlic Breadsticks",
+          "description": "Warm breadsticks with herb butter"
+        },
+        {
+          "name": "Italian Salad",
+          "description": "Mixed greens with Italian vinaigrette"
+        },
+        {
+          "name": "Tiramisu Cups",
+          "description": "Individual portions of classic tiramisu"
+        }
+      ],
+      "pricePerPerson": 18.50,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 340,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional pizza and pasta lunch with cheese and meat",
+          "equivalentTo": "Not using a dryer for 2 years"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 58,
+          "breakdown": {
+            "chickens": 30,
+            "pigs": 8,
+            "cows": 20
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    },
+    {
+      "id": "corporate-6",
+      "name": "Breakfast Meeting Package",
+      "description": "Energizing morning meal for early meetings",
+      "dishes": [
+        {
+          "name": "Bagel Bar",
+          "description": "Assorted bagels with plant-based cream cheese and toppings"
+        },
+        {
+          "name": "Overnight Oats Station",
+          "description": "Oats with various fruits, nuts, and toppings"
+        },
+        {
+          "name": "Fresh Fruit Salad",
+          "description": "Seasonal fruit medley"
+        },
+        {
+          "name": "Breakfast Burritos",
+          "description": "Scrambled tofu with vegetables in tortillas"
+        },
+        {
+          "name": "Muffins & Pastries",
+          "description": "Assorted baked goods"
+        }
+      ],
+      "pricePerPerson": 16.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 280,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional breakfast with eggs, bacon, and dairy",
+          "equivalentTo": "Driving 700 miles in an average car"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 245,
+          "breakdown": {
+            "chickens": 200,
+            "pigs": 15,
+            "cows": 30
+          },
+          "description": "Animals that would have been raised and slaughtered for this meal"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "eventType": "Corporate Lunch",
+    "dataSource": "curated",
+    "timestamp": "2025-12-14T00:00:00Z"
+  }
+}
