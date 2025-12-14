@@ -1,0 +1,241 @@
+{
+  "menus": [
+    {
+      "id": "thanksgiving-1",
+      "name": "Traditional Harvest Feast",
+      "description": "Classic Thanksgiving favorites with modern plant-based twists",
+      "image": "https://images.unsplash.com/photo-1574672280315-33708c4a0c3e?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Herb-Roasted Tofurky with Mushroom Gravy",
+          "description": "Golden-brown, savory centerpiece with rich mushroom pan gravy"
+        },
+        {
+          "name": "Maple-Glazed Roasted Root Vegetables",
+          "description": "Carrots, parsnips, and sweet potatoes with maple and thyme"
+        },
+        {
+          "name": "Classic Green Bean Casserole",
+          "description": "Creamy mushroom sauce with crispy onion topping"
+        },
+        {
+          "name": "Cranberry Orange Relish",
+          "description": "Fresh cranberries with orange zest and maple syrup"
+        },
+        {
+          "name": "Pumpkin Pie with Coconut Whipped Cream",
+          "description": "Silky pumpkin filling in a flaky crust"
+        }
+      ],
+      "pricePerPerson": 22.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 420,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional turkey dinner",
+          "equivalentTo": "Driving 1,050 miles in an average car"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 105,
+          "breakdown": {
+            "turkeys": 5,
+            "chickens": 100
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    },
+    {
+      "id": "thanksgiving-2",
+      "name": "Gourmet Autumn Table",
+      "description": "Elevated seasonal ingredients for a refined celebration",
+      "image": "https://images.unsplash.com/photo-1607623488235-e2bf51a2c7e0?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Stuffed Acorn Squash with Wild Rice",
+          "description": "Roasted squash filled with wild rice, cranberries, and pecans"
+        },
+        {
+          "name": "Brussels Sprouts with Balsamic Glaze",
+          "description": "Crispy roasted sprouts with tangy-sweet reduction"
+        },
+        {
+          "name": "Butternut Squash Soup Shooters",
+          "description": "Creamy soup garnished with pumpkin seeds"
+        },
+        {
+          "name": "Sourdough Stuffing with Herbs",
+          "description": "Artisan bread with sage, rosemary, and celery"
+        },
+        {
+          "name": "Apple Crisp with Vanilla Bean Ice Cream",
+          "description": "Warm spiced apples with oat topping and dairy-free ice cream"
+        }
+      ],
+      "pricePerPerson": 25.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 395,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional turkey dinner",
+          "equivalentTo": "Taking a car off the road for 6 weeks"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 102,
+          "breakdown": {
+            "turkeys": 5,
+            "chickens": 97
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    },
+    {
+      "id": "thanksgiving-3",
+      "name": "Southern Comfort Thanksgiving",
+      "description": "Down-home flavors with a compassionate twist",
+      "image": "https://images.unsplash.com/photo-1606728035253-49e8a23146de?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Jackfruit 'Pulled Pork' Sliders",
+          "description": "BBQ jackfruit on mini cornbread biscuits"
+        },
+        {
+          "name": "Mac & Cheese Bar",
+          "description": "Creamy cashew-based mac with bacon bits and breadcrumbs"
+        },
+        {
+          "name": "Collard Greens with Smoked Tempeh",
+          "description": "Slow-cooked greens with savory tempeh"
+        },
+        {
+          "name": "Sweet Potato Casserole with Pecan Topping",
+          "description": "Mashed sweet potatoes with candied pecan crust"
+        },
+        {
+          "name": "Pecan Pie Bars",
+          "description": "Buttery crust with gooey pecan filling"
+        }
+      ],
+      "pricePerPerson": 20.50,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 445,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional Southern Thanksgiving",
+          "equivalentTo": "Planting 20 trees"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 110,
+          "breakdown": {
+            "turkeys": 5,
+            "pigs": 8,
+            "chickens": 97
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    },
+    {
+      "id": "thanksgiving-4",
+      "name": "International Harvest",
+      "description": "Global flavors come together for a unique Thanksgiving",
+      "image": "https://images.unsplash.com/photo-1609501676725-7186f017a4b7?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Moroccan-Spiced Lentil Loaf",
+          "description": "Aromatic lentils with cumin, coriander, and apricots"
+        },
+        {
+          "name": "Roasted Cauliflower with Tahini",
+          "description": "Whole cauliflower with Middle Eastern spices"
+        },
+        {
+          "name": "Asian Slaw with Sesame Dressing",
+          "description": "Crunchy vegetables with ginger-sesame vinaigrette"
+        },
+        {
+          "name": "Quinoa Pilaf with Dried Fruits",
+          "description": "Fluffy quinoa with cranberries, apricots, and almonds"
+        },
+        {
+          "name": "Baklava and Fruit Tart",
+          "description": "Phyllo pastry with nuts and seasonal fruit tart"
+        }
+      ],
+      "pricePerPerson": 23.50,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 380,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional meat-based feast",
+          "equivalentTo": "Powering a home for 13 days"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 98,
+          "breakdown": {
+            "turkeys": 5,
+            "chickens": 90,
+            "fish": 3
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    },
+    {
+      "id": "thanksgiving-5",
+      "name": "Rustic Farm-to-Table",
+      "description": "Simple, wholesome ingredients highlighting seasonal produce",
+      "image": "https://images.unsplash.com/photo-1511688878353-3a2f5be94cd7?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Roasted Vegetable Platter",
+          "description": "Seasonal vegetables with herb oil and sea salt"
+        },
+        {
+          "name": "Lentil Shepherd's Pie",
+          "description": "Savory lentils topped with creamy mashed potatoes"
+        },
+        {
+          "name": "Kale and Apple Salad",
+          "description": "Massaged kale with apple, walnuts, and maple dressing"
+        },
+        {
+          "name": "Rosemary Focaccia Bread",
+          "description": "Fresh-baked Italian flatbread with olive oil"
+        },
+        {
+          "name": "Spiced Pear Tart",
+          "description": "Caramelized pears with cinnamon in pastry crust"
+        }
+      ],
+      "pricePerPerson": 19.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 410,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional turkey dinner",
+          "equivalentTo": "Not using a dryer for 3 years"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 103,
+          "breakdown": {
+            "turkeys": 5,
+            "chickens": 98
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "generatedFor": {
+      "eventType": "Thanksgiving Dinner",
+      "numberOfPeople": 100,
+      "budget": 2000,
+      "address": ""
+    },
+    "dataSource": "hardcoded",
+    "timestamp": "2025-12-14T00:00:00Z"
+  }
+}

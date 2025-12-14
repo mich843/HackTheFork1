@@ -1,0 +1,244 @@
+{
+  "menus": [
+    {
+      "id": "wedding-1",
+      "name": "Elegant Garden Party",
+      "description": "Light, sophisticated flavors for a romantic celebration",
+      "image": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Caprese Towers",
+          "description": "Stacked tomato, basil, and plant-based mozzarella drizzled with balsamic"
+        },
+        {
+          "name": "Herb-Crusted Portobello Steaks",
+          "description": "Marinated mushrooms with chimichurri sauce"
+        },
+        {
+          "name": "Lemon Asparagus Risotto",
+          "description": "Creamy arborio rice with fresh asparagus and lemon zest"
+        },
+        {
+          "name": "Mixed Green Salad",
+          "description": "Spring greens with edible flowers and champagne vinaigrette"
+        },
+        {
+          "name": "Vanilla Bean Panna Cotta",
+          "description": "Silky dessert with fresh berry compote"
+        }
+      ],
+      "pricePerPerson": 35.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 380,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional wedding dinner",
+          "equivalentTo": "Driving 950 miles in an average car"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 95,
+          "breakdown": {
+            "chickens": 65,
+            "cows": 20,
+            "fish": 10
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    },
+    {
+      "id": "wedding-2",
+      "name": "Rustic Farm Wedding",
+      "description": "Hearty, wholesome dishes with countryside charm",
+      "image": "https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Roasted Vegetable Platter",
+          "description": "Seasonal vegetables with herb oil and flaky sea salt"
+        },
+        {
+          "name": "Mushroom Bourguignon",
+          "description": "Rich red wine stew with pearl onions and herbs"
+        },
+        {
+          "name": "Garlic Mashed Potatoes",
+          "description": "Creamy potatoes with roasted garlic"
+        },
+        {
+          "name": "Arugula and Beet Salad",
+          "description": "Peppery greens with roasted beets and candied pecans"
+        },
+        {
+          "name": "Apple Galette",
+          "description": "Rustic free-form tart with cinnamon apples"
+        }
+      ],
+      "pricePerPerson": 32.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 425,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional wedding feast",
+          "equivalentTo": "Taking a car off the road for 7 weeks"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 108,
+          "breakdown": {
+            "chickens": 70,
+            "cows": 28,
+            "pigs": 10
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    },
+    {
+      "id": "wedding-3",
+      "name": "Mediterranean Soirée",
+      "description": "Sun-drenched flavors for a festive celebration",
+      "image": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Mezze Platter",
+          "description": "Hummus, baba ganoush, tabbouleh, and warm pita"
+        },
+        {
+          "name": "Stuffed Grape Leaves",
+          "description": "Rice and herb-filled dolmas with lemon"
+        },
+        {
+          "name": "Grilled Vegetable Skewers",
+          "description": "Colorful vegetables with za'atar spice"
+        },
+        {
+          "name": "Greek Salad",
+          "description": "Tomatoes, cucumbers, olives, and plant-based feta"
+        },
+        {
+          "name": "Pistachio Baklava",
+          "description": "Layers of phyllo with nuts and orange blossom syrup"
+        }
+      ],
+      "pricePerPerson": 30.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 355,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional Mediterranean wedding menu",
+          "equivalentTo": "Planting 16 trees"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 88,
+          "breakdown": {
+            "chickens": 55,
+            "fish": 18,
+            "cows": 15
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    },
+    {
+      "id": "wedding-4",
+      "name": "Modern Minimalist",
+      "description": "Clean, refined plates with artistic presentation",
+      "image": "https://images.unsplash.com/photo-1505236858219-8359eb29e329?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Beet Carpaccio",
+          "description": "Thinly sliced roasted beets with arugula and pistachio"
+        },
+        {
+          "name": "Cauliflower Steak",
+          "description": "Roasted cauliflower with romesco sauce"
+        },
+        {
+          "name": "Truffle Polenta",
+          "description": "Creamy polenta finished with truffle oil"
+        },
+        {
+          "name": "Microgreens Salad",
+          "description": "Delicate greens with citrus segments"
+        },
+        {
+          "name": "Lemon Tart",
+          "description": "Tangy lemon curd in almond crust with meringue"
+        }
+      ],
+      "pricePerPerson": 38.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 365,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional fine dining wedding menu",
+          "equivalentTo": "Powering a home for 12 days"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 92,
+          "breakdown": {
+            "chickens": 60,
+            "cows": 22,
+            "fish": 10
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    },
+    {
+      "id": "wedding-5",
+      "name": "Tropical Paradise",
+      "description": "Island-inspired flavors for a destination feel",
+      "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Coconut Ceviche",
+          "description": "Hearts of palm with lime, cilantro, and coconut"
+        },
+        {
+          "name": "Jerk-Spiced Jackfruit",
+          "description": "Caribbean-spiced jackfruit with mango salsa"
+        },
+        {
+          "name": "Coconut Rice and Beans",
+          "description": "Fragrant rice cooked in coconut milk with black beans"
+        },
+        {
+          "name": "Papaya Salad",
+          "description": "Fresh papaya with lime dressing and toasted coconut"
+        },
+        {
+          "name": "Passion Fruit Mousse",
+          "description": "Light, tropical mousse with fresh fruit"
+        }
+      ],
+      "pricePerPerson": 33.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 395,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional tropical wedding menu",
+          "equivalentTo": "Not using a dryer for 2.5 years"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 102,
+          "breakdown": {
+            "chickens": 62,
+            "pigs": 15,
+            "fish": 25
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "generatedFor": {
+      "eventType": "Wedding Reception",
+      "numberOfPeople": 100,
+      "budget": 2000,
+      "address": ""
+    },
+    "dataSource": "hardcoded",
+    "timestamp": "2025-12-14T00:00:00Z"
+  }
+}

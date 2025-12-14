@@ -1,0 +1,245 @@
+{
+  "menus": [
+    {
+      "id": "other-1",
+      "name": "Customizable Buffet",
+      "description": "Versatile spread perfect for any occasion",
+      "image": "https://images.unsplash.com/photo-1533777324565-a040eb52facd?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Build-Your-Own Bowl Station",
+          "description": "Various grains, proteins, vegetables, and dressings"
+        },
+        {
+          "name": "Sandwich and Wrap Bar",
+          "description": "Selection of breads with assorted fillings"
+        },
+        {
+          "name": "Salad Bar",
+          "description": "Mixed greens with numerous toppings and dressings"
+        },
+        {
+          "name": "Hot Side Dishes",
+          "description": "Seasonal vegetables and starches"
+        },
+        {
+          "name": "Dessert Platter",
+          "description": "Assorted cookies, brownies, and fruit"
+        }
+      ],
+      "pricePerPerson": 19.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 305,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional buffet with meat and dairy",
+          "equivalentTo": "Driving 763 miles in an average car"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 65,
+          "breakdown": {
+            "chickens": 52,
+            "cows": 8,
+            "pigs": 5
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    },
+    {
+      "id": "other-2",
+      "name": "Comfort Food Favorites",
+      "description": "Classic dishes everyone loves",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Mac & Cheese",
+          "description": "Creamy cashew-based cheese sauce with pasta"
+        },
+        {
+          "name": "Veggie Burgers with Fixings",
+          "description": "House-made patties with all the toppings"
+        },
+        {
+          "name": "Sweet Potato Fries",
+          "description": "Crispy fries with dipping sauces"
+        },
+        {
+          "name": "Coleslaw",
+          "description": "Creamy cabbage slaw with carrots"
+        },
+        {
+          "name": "Chocolate Chip Cookies",
+          "description": "Warm, gooey cookies"
+        }
+      ],
+      "pricePerPerson": 17.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 345,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional comfort food menu",
+          "equivalentTo": "Taking a car off the road for 6 weeks"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 78,
+          "breakdown": {
+            "chickens": 60,
+            "cows": 12,
+            "pigs": 6
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    },
+    {
+      "id": "other-3",
+      "name": "Global Cuisine Tour",
+      "description": "Dishes from around the world",
+      "image": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Indian Curry Station",
+          "description": "Chickpea and vegetable curries with rice and naan"
+        },
+        {
+          "name": "Mexican Taco Bar",
+          "description": "Soft and hard tacos with beans, vegetables, and salsas"
+        },
+        {
+          "name": "Italian Pasta Bar",
+          "description": "Choice of pasta with various sauces"
+        },
+        {
+          "name": "Asian Stir-Fry",
+          "description": "Vegetables and tofu with rice or noodles"
+        },
+        {
+          "name": "International Desserts",
+          "description": "Baklava, mochi, churros, and more"
+        }
+      ],
+      "pricePerPerson": 21.50,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 330,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional international buffet",
+          "equivalentTo": "Planting 15 trees"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 82,
+          "breakdown": {
+            "chickens": 60,
+            "cows": 10,
+            "pigs": 8,
+            "fish": 4
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    },
+    {
+      "id": "other-4",
+      "name": "Casual Gathering",
+      "description": "Easy-going favorites for relaxed events",
+      "image": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Pizza Variety",
+          "description": "Assorted plant-based pizzas with different toppings"
+        },
+        {
+          "name": "Caesar Salad",
+          "description": "Crisp romaine with plant-based Caesar dressing"
+        },
+        {
+          "name": "Garlic Breadsticks",
+          "description": "Warm breadsticks with marinara sauce"
+        },
+        {
+          "name": "Wings Trio",
+          "description": "Cauliflower wings in buffalo, BBQ, and teriyaki"
+        },
+        {
+          "name": "Ice Cream Sundae Bar",
+          "description": "Dairy-free ice cream with various toppings"
+        }
+      ],
+      "pricePerPerson": 16.50,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 365,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional pizza party with meat toppings",
+          "equivalentTo": "Powering a home for 12 days"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 88,
+          "breakdown": {
+            "chickens": 70,
+            "cows": 15,
+            "pigs": 3
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    },
+    {
+      "id": "other-5",
+      "name": "Healthy & Fresh",
+      "description": "Light, nutritious options for wellness-focused events",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Rainbow Salad Bowl",
+          "description": "Colorful mix of vegetables, grains, and legumes"
+        },
+        {
+          "name": "Avocado Toast Bar",
+          "description": "Whole grain toast with various toppings"
+        },
+        {
+          "name": "Fresh Spring Rolls",
+          "description": "Rice paper rolls with vegetables and herbs"
+        },
+        {
+          "name": "Smoothie Bowl Station",
+          "description": "Blended fruit bowls with toppings"
+        },
+        {
+          "name": "Energy Bites",
+          "description": "No-bake balls with dates, nuts, and seeds"
+        }
+      ],
+      "pricePerPerson": 18.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 290,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional catering menu",
+          "equivalentTo": "Not using a dryer for 18 months"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 60,
+          "breakdown": {
+            "chickens": 48,
+            "fish": 8,
+            "cows": 4
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "generatedFor": {
+      "eventType": "Other",
+      "numberOfPeople": 100,
+      "budget": 2000,
+      "address": ""
+    },
+    "dataSource": "hardcoded",
+    "timestamp": "2025-12-14T00:00:00Z"
+  }
+}

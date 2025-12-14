@@ -1,0 +1,243 @@
+{
+  "menus": [
+    {
+      "id": "corporate-1",
+      "name": "Executive Power Lunch",
+      "description": "Professional, impressive dishes for business meetings",
+      "image": "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Quinoa Power Bowl",
+          "description": "Quinoa with roasted vegetables, avocado, and tahini dressing"
+        },
+        {
+          "name": "Grilled Vegetable Panini",
+          "description": "Pressed sandwiches with marinated vegetables and pesto"
+        },
+        {
+          "name": "Caesar Salad with Chickpeas",
+          "description": "Crispy romaine with plant-based Caesar and crispy chickpeas"
+        },
+        {
+          "name": "Tomato Basil Soup",
+          "description": "Classic soup with fresh basil and croutons"
+        },
+        {
+          "name": "Fresh Fruit and Brownie Platter",
+          "description": "Seasonal fruit with rich chocolate brownies"
+        }
+      ],
+      "pricePerPerson": 20.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 295,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional corporate lunch with meat",
+          "equivalentTo": "Driving 738 miles in an average car"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 62,
+          "breakdown": {
+            "chickens": 55,
+            "cows": 7
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    },
+    {
+      "id": "corporate-2",
+      "name": "International Business",
+      "description": "Global flavors for diverse corporate settings",
+      "image": "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Sushi Box",
+          "description": "Assorted vegetable rolls with edamame and miso soup"
+        },
+        {
+          "name": "Mediterranean Wrap",
+          "description": "Hummus, falafel, and vegetables in whole wheat tortilla"
+        },
+        {
+          "name": "Thai Noodle Salad",
+          "description": "Rice noodles with vegetables and peanut dressing"
+        },
+        {
+          "name": "Spring Rolls with Dipping Sauce",
+          "description": "Fresh Vietnamese rolls with sweet chili sauce"
+        },
+        {
+          "name": "Matcha Cheesecake Bites",
+          "description": "Individual portions of green tea cheesecake"
+        }
+      ],
+      "pricePerPerson": 22.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 315,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional international buffet",
+          "equivalentTo": "Taking a car off the road for 5 weeks"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 75,
+          "breakdown": {
+            "chickens": 50,
+            "fish": 20,
+            "cows": 5
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    },
+    {
+      "id": "corporate-3",
+      "name": "Health-Conscious Professional",
+      "description": "Nutritious, energizing meals for productive meetings",
+      "image": "https://images.unsplash.com/photo-1490818387583-1baba5e638af?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Buddha Bowl Bar",
+          "description": "Build-your-own bowls with grains, proteins, and vegetables"
+        },
+        {
+          "name": "Kale and Chickpea Salad",
+          "description": "Massaged kale with roasted chickpeas and lemon tahini"
+        },
+        {
+          "name": "Veggie Sushi Rolls",
+          "description": "Fresh cucumber, avocado, and carrot maki"
+        },
+        {
+          "name": "Green Smoothie Station",
+          "description": "Fresh blended smoothies with superfoods"
+        },
+        {
+          "name": "Energy Balls",
+          "description": "Date and nut balls rolled in coconut"
+        }
+      ],
+      "pricePerPerson": 21.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 285,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional lunch menu",
+          "equivalentTo": "Planting 13 trees"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 58,
+          "breakdown": {
+            "chickens": 45,
+            "fish": 10,
+            "cows": 3
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    },
+    {
+      "id": "corporate-4",
+      "name": "Artisan Sandwich Spread",
+      "description": "Gourmet sandwiches for a casual business lunch",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Caprese Sandwich",
+          "description": "Plant-based mozzarella, tomato, basil on ciabatta"
+        },
+        {
+          "name": "BBQ Jackfruit Sandwich",
+          "description": "Pulled jackfruit with coleslaw on brioche bun"
+        },
+        {
+          "name": "Hummus Veggie Wrap",
+          "description": "Creamy hummus with fresh vegetables in spinach wrap"
+        },
+        {
+          "name": "Chips and Dips Trio",
+          "description": "Housemade chips with guacamole, salsa, and bean dip"
+        },
+        {
+          "name": "Cookie Assortment",
+          "description": "Variety of freshly baked cookies"
+        }
+      ],
+      "pricePerPerson": 18.50,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 310,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional deli sandwich spread",
+          "equivalentTo": "Powering a home for 11 days"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 68,
+          "breakdown": {
+            "chickens": 50,
+            "pigs": 10,
+            "cows": 8
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    },
+    {
+      "id": "corporate-5",
+      "name": "Italian Bistro Lunch",
+      "description": "Classic Italian favorites for a sophisticated lunch",
+      "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=600&h=400&fit=crop",
+      "dishes": [
+        {
+          "name": "Pasta Primavera",
+          "description": "Fresh pasta with seasonal vegetables and herbs"
+        },
+        {
+          "name": "Bruschetta Platter",
+          "description": "Tomato-basil, mushroom, and artichoke on crostini"
+        },
+        {
+          "name": "Caprese Salad",
+          "description": "Fresh tomatoes and plant-based mozzarella with balsamic"
+        },
+        {
+          "name": "Minestrone Soup",
+          "description": "Hearty vegetable soup with beans and pasta"
+        },
+        {
+          "name": "Tiramisu Cups",
+          "description": "Individual portions of classic Italian dessert"
+        }
+      ],
+      "pricePerPerson": 23.00,
+      "impactMetrics": {
+        "carbonSaved": {
+          "amount": 325,
+          "unit": "kg CO2e",
+          "comparison": "vs. traditional Italian lunch",
+          "equivalentTo": "Not using a dryer for 2 years"
+        },
+        "sufferingPrevented": {
+          "animalsSpared": 72,
+          "breakdown": {
+            "chickens": 48,
+            "cows": 20,
+            "fish": 4
+          },
+          "description": "Animals spared from this meal"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "generatedFor": {
+      "eventType": "Corporate Lunch",
+      "numberOfPeople": 100,
+      "budget": 2000,
+      "address": ""
+    },
+    "dataSource": "hardcoded",
+    "timestamp": "2025-12-14T00:00:00Z"
+  }
+}
