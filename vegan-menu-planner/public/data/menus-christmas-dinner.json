@@ -27,20 +27,19 @@
           "description": "Chocolate sponge rolled with vanilla cream, decorated festively"
         }
       ],
-      "pricePerPerson": 26.00,
+      "pricePerPerson": 26.0,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 455,
+          "amount": 285,
           "unit": "kg CO2e",
           "comparison": "vs. traditional Christmas roast",
-          "equivalentTo": "Driving 1,140 miles in an average car"
+          "equivalentTo": "Driving 710 miles in an average car"
         },
         "sufferingPrevented": {
-          "animalsSpared": 115,
+          "animalsSpared": 12,
           "breakdown": {
-            "turkeys": 6,
-            "pigs": 8,
-            "chickens": 101
+            "turkeys": 3,
+            "chickens": 9
           },
           "description": "Animals spared from this meal"
         }
@@ -73,20 +72,19 @@
           "description": "Traditional German fruit bread transformed into dessert"
         }
       ],
-      "pricePerPerson": 28.00,
+      "pricePerPerson": 28.0,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 430,
+          "amount": 245,
           "unit": "kg CO2e",
           "comparison": "vs. traditional European Christmas meal",
-          "equivalentTo": "Taking a car off the road for 7 weeks"
+          "equivalentTo": "Taking a car off the road for 4 weeks"
         },
         "sufferingPrevented": {
-          "animalsSpared": 108,
+          "animalsSpared": 10,
           "breakdown": {
-            "turkeys": 6,
-            "pigs": 10,
-            "chickens": 92
+            "chickens": 7,
+            "pigs": 3
           },
           "description": "Animals spared from this meal"
         }
@@ -119,20 +117,19 @@
           "description": "Decadent flourless cake with raspberry coulis"
         }
       ],
-      "pricePerPerson": 30.00,
+      "pricePerPerson": 30.0,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 405,
+          "amount": 195,
           "unit": "kg CO2e",
           "comparison": "vs. traditional holiday dinner",
-          "equivalentTo": "Planting 18 trees"
+          "equivalentTo": "Planting 9 trees"
         },
         "sufferingPrevented": {
-          "animalsSpared": 102,
+          "animalsSpared": 8,
           "breakdown": {
-            "turkeys": 6,
-            "chickens": 88,
-            "fish": 8
+            "chickens": 6,
+            "fish": 2
           },
           "description": "Animals spared from this meal"
         }
@@ -165,20 +162,20 @@
           "description": "Creamy rice pudding topped with lingonberry sauce"
         }
       ],
-      "pricePerPerson": 24.50,
+      "pricePerPerson": 24.5,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 385,
+          "amount": 220,
           "unit": "kg CO2e",
           "comparison": "vs. traditional Nordic Christmas feast",
-          "equivalentTo": "Powering a home for 13 days"
+          "equivalentTo": "Powering a home for 7.5 days"
         },
         "sufferingPrevented": {
-          "animalsSpared": 118,
+          "animalsSpared": 15,
           "breakdown": {
-            "pigs": 12,
-            "chickens": 85,
-            "fish": 21
+            "pigs": 2,
+            "chickens": 8,
+            "fish": 5
           },
           "description": "Animals spared from this meal"
         }
@@ -211,20 +208,19 @@
           "description": "Layers of spiced cake, vanilla cream, and caramel"
         }
       ],
-      "pricePerPerson": 22.00,
+      "pricePerPerson": 22.0,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 440,
+          "amount": 265,
           "unit": "kg CO2e",
           "comparison": "vs. traditional holiday roast",
-          "equivalentTo": "Not using a dryer for 3 years"
+          "equivalentTo": "Not using a dryer for 1.5 years"
         },
         "sufferingPrevented": {
-          "animalsSpared": 112,
+          "animalsSpared": 11,
           "breakdown": {
-            "turkeys": 6,
-            "pigs": 9,
-            "chickens": 97
+            "turkeys": 3,
+            "chickens": 8
           },
           "description": "Animals spared from this meal"
         }

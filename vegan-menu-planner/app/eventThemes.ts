@@ -12,14 +12,14 @@ export const eventThemes: Record<string, EventTheme> = {
     gradient: 'from-orange-50 to-amber-100',
     primaryColor: 'orange-600',
     accentColor: 'amber-600',
-    image: 'https://images.unsplash.com/photo-1574672280315-33708c4a0c3e?w=1200&h=400&fit=crop'
+    image: 'https://images.unsplash.com/photo-1606728035253-49e8a23146de?w=1200&h=400&fit=crop'
   },
   'Afterwork Buffet': {
     name: 'Afterwork Buffet',
     gradient: 'from-blue-50 to-indigo-100',
     primaryColor: 'blue-600',
     accentColor: 'indigo-600',
-    image: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&h=400&fit=crop'
+    image: 'https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=1200&h=400&fit=crop'
   },
   'Christmas Dinner': {
     name: 'Christmas Dinner',

@@ -27,20 +27,19 @@
           "description": "Assorted cookies, brownies, and fruit"
         }
       ],
-      "pricePerPerson": 19.00,
+      "pricePerPerson": 19.0,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 305,
+          "amount": 140,
           "unit": "kg CO2e",
           "comparison": "vs. traditional buffet with meat and dairy",
-          "equivalentTo": "Driving 763 miles in an average car"
+          "equivalentTo": "Driving 350 miles in an average car"
         },
         "sufferingPrevented": {
-          "animalsSpared": 65,
+          "animalsSpared": 10,
           "breakdown": {
-            "chickens": 52,
-            "cows": 8,
-            "pigs": 5
+            "chickens": 8,
+            "cows": 2
           },
           "description": "Animals spared from this meal"
         }
@@ -73,20 +72,19 @@
           "description": "Warm, gooey cookies"
         }
       ],
-      "pricePerPerson": 17.00,
+      "pricePerPerson": 17.0,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 345,
+          "amount": 185,
           "unit": "kg CO2e",
           "comparison": "vs. traditional comfort food menu",
-          "equivalentTo": "Taking a car off the road for 6 weeks"
+          "equivalentTo": "Taking a car off the road for 3 weeks"
         },
         "sufferingPrevented": {
-          "animalsSpared": 78,
+          "animalsSpared": 12,
           "breakdown": {
-            "chickens": 60,
-            "cows": 12,
-            "pigs": 6
+            "chickens": 10,
+            "cows": 2
           },
           "description": "Animals spared from this meal"
         }
@@ -119,21 +117,20 @@
           "description": "Baklava, mochi, churros, and more"
         }
       ],
-      "pricePerPerson": 21.50,
+      "pricePerPerson": 21.5,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 330,
+          "amount": 160,
           "unit": "kg CO2e",
           "comparison": "vs. traditional international buffet",
-          "equivalentTo": "Planting 15 trees"
+          "equivalentTo": "Planting 7 trees"
         },
         "sufferingPrevented": {
-          "animalsSpared": 82,
+          "animalsSpared": 14,
           "breakdown": {
-            "chickens": 60,
-            "cows": 10,
-            "pigs": 8,
-            "fish": 4
+            "chickens": 10,
+            "pigs": 2,
+            "fish": 2
           },
           "description": "Animals spared from this meal"
         }
@@ -166,20 +163,19 @@
           "description": "Dairy-free ice cream with various toppings"
         }
       ],
-      "pricePerPerson": 16.50,
+      "pricePerPerson": 16.5,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 365,
+          "amount": 195,
           "unit": "kg CO2e",
           "comparison": "vs. traditional pizza party with meat toppings",
-          "equivalentTo": "Powering a home for 12 days"
+          "equivalentTo": "Powering a home for 6.5 days"
         },
         "sufferingPrevented": {
-          "animalsSpared": 88,
+          "animalsSpared": 15,
           "breakdown": {
-            "chickens": 70,
-            "cows": 15,
-            "pigs": 3
+            "chickens": 12,
+            "cows": 3
           },
           "description": "Animals spared from this meal"
         }
@@ -212,20 +208,19 @@
           "description": "No-bake balls with dates, nuts, and seeds"
         }
       ],
-      "pricePerPerson": 18.00,
+      "pricePerPerson": 18.0,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 290,
+          "amount": 125,
           "unit": "kg CO2e",
           "comparison": "vs. traditional catering menu",
-          "equivalentTo": "Not using a dryer for 18 months"
+          "equivalentTo": "Not using a dryer for 9 months"
         },
         "sufferingPrevented": {
-          "animalsSpared": 60,
+          "animalsSpared": 9,
           "breakdown": {
-            "chickens": 48,
-            "fish": 8,
-            "cows": 4
+            "chickens": 7,
+            "fish": 2
           },
           "description": "Animals spared from this meal"
         }

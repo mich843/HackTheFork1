@@ -4,7 +4,7 @@
       "id": "thanksgiving-1",
       "name": "Traditional Harvest Feast",
       "description": "Classic Thanksgiving favorites with modern plant-based twists",
-      "image": "https://images.unsplash.com/photo-1574672280315-33708c4a0c3e?w=600&h=400&fit=crop",
+      "image": "https://images.unsplash.com/photo-1606728035253-49e8a23146de?w=600&h=400&fit=crop",
       "dishes": [
         {
           "name": "Herb-Roasted Tofurky with Mushroom Gravy",
@@ -30,16 +30,16 @@
       "pricePerPerson": 22.00,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 420,
+          "amount": 206,
           "unit": "kg CO2e",
           "comparison": "vs. traditional turkey dinner",
-          "equivalentTo": "Driving 1,050 miles in an average car"
+          "equivalentTo": "Driving 515 miles in an average car"
         },
         "sufferingPrevented": {
-          "animalsSpared": 105,
+          "animalsSpared": 7,
           "breakdown": {
-            "turkeys": 5,
-            "chickens": 100
+            "turkeys": 2,
+            "chickens": 5
           },
           "description": "Animals spared from this meal"
         }
@@ -75,16 +75,15 @@
       "pricePerPerson": 25.00,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 395,
+          "amount": 114,
           "unit": "kg CO2e",
           "comparison": "vs. traditional turkey dinner",
-          "equivalentTo": "Taking a car off the road for 6 weeks"
+          "equivalentTo": "Taking a car off the road for 2 weeks"
         },
         "sufferingPrevented": {
-          "animalsSpared": 102,
+          "animalsSpared": 6,
           "breakdown": {
-            "turkeys": 5,
-            "chickens": 97
+            "chickens": 6
           },
           "description": "Animals spared from this meal"
         }
@@ -94,7 +93,7 @@
       "id": "thanksgiving-3",
       "name": "Southern Comfort Thanksgiving",
       "description": "Down-home flavors with a compassionate twist",
-      "image": "https://images.unsplash.com/photo-1606728035253-49e8a23146de?w=600&h=400&fit=crop",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&h=400&fit=crop",
       "dishes": [
         {
           "name": "Jackfruit 'Pulled Pork' Sliders",
@@ -120,17 +119,15 @@
       "pricePerPerson": 20.50,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 445,
+          "amount": 245,
           "unit": "kg CO2e",
           "comparison": "vs. traditional Southern Thanksgiving",
-          "equivalentTo": "Planting 20 trees"
+          "equivalentTo": "Planting 11 trees"
         },
         "sufferingPrevented": {
-          "animalsSpared": 110,
+          "animalsSpared": 5,
           "breakdown": {
-            "turkeys": 5,
-            "pigs": 8,
-            "chickens": 97
+            "chickens": 5
           },
           "description": "Animals spared from this meal"
         }
@@ -166,17 +163,16 @@
       "pricePerPerson": 23.50,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 380,
+          "amount": 103,
           "unit": "kg CO2e",
           "comparison": "vs. traditional meat-based feast",
-          "equivalentTo": "Powering a home for 13 days"
+          "equivalentTo": "Powering a home for 3.5 days"
         },
         "sufferingPrevented": {
-          "animalsSpared": 98,
+          "animalsSpared": 23,
           "breakdown": {
-            "turkeys": 5,
-            "chickens": 90,
-            "fish": 3
+            "chickens": 7,
+            "fish": 16
           },
           "description": "Animals spared from this meal"
         }
@@ -212,16 +208,15 @@
       "pricePerPerson": 19.00,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 410,
+          "amount": 300,
           "unit": "kg CO2e",
           "comparison": "vs. traditional turkey dinner",
-          "equivalentTo": "Not using a dryer for 3 years"
+          "equivalentTo": "Not using a dryer for 2 years"
         },
         "sufferingPrevented": {
-          "animalsSpared": 103,
+          "animalsSpared": 8,
           "breakdown": {
-            "turkeys": 5,
-            "chickens": 98
+            "chickens": 8
           },
           "description": "Animals spared from this meal"
         }

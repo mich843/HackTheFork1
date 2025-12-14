@@ -6,12 +6,12 @@ import { useRouter } from 'next/navigation';
 const eventTypes = [
   {
     name: 'Thanksgiving Dinner',
-    image: 'https://images.unsplash.com/photo-1574672280315-33708c4a0c3e?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1606728035253-49e8a23146de?w=400&h=300&fit=crop',
     description: 'Traditional feast with plant-based twists'
   },
   {
     name: 'Afterwork Buffet',
-    image: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&h=300&fit=crop',
     description: 'Casual networking and delicious bites'
   },
   {

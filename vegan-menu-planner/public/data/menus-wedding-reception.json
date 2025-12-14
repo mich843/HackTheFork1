@@ -27,20 +27,19 @@
           "description": "Silky dessert with fresh berry compote"
         }
       ],
-      "pricePerPerson": 35.00,
+      "pricePerPerson": 35.0,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 380,
+          "amount": 175,
           "unit": "kg CO2e",
           "comparison": "vs. traditional wedding dinner",
-          "equivalentTo": "Driving 950 miles in an average car"
+          "equivalentTo": "Driving 440 miles in an average car"
         },
         "sufferingPrevented": {
-          "animalsSpared": 95,
+          "animalsSpared": 12,
           "breakdown": {
-            "chickens": 65,
-            "cows": 20,
-            "fish": 10
+            "chickens": 10,
+            "fish": 2
           },
           "description": "Animals spared from this meal"
         }
@@ -73,20 +72,19 @@
           "description": "Rustic free-form tart with cinnamon apples"
         }
       ],
-      "pricePerPerson": 32.00,
+      "pricePerPerson": 32.0,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 425,
+          "amount": 235,
           "unit": "kg CO2e",
           "comparison": "vs. traditional wedding feast",
-          "equivalentTo": "Taking a car off the road for 7 weeks"
+          "equivalentTo": "Taking a car off the road for 4 weeks"
         },
         "sufferingPrevented": {
-          "animalsSpared": 108,
+          "animalsSpared": 15,
           "breakdown": {
-            "chickens": 70,
-            "cows": 28,
-            "pigs": 10
+            "chickens": 12,
+            "cows": 3
           },
           "description": "Animals spared from this meal"
         }
@@ -94,7 +92,7 @@
     },
     {
       "id": "wedding-3",
-      "name": "Mediterranean Soirée",
+      "name": "Mediterranean Soir\u00e9e",
       "description": "Sun-drenched flavors for a festive celebration",
       "image": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=600&h=400&fit=crop",
       "dishes": [
@@ -119,20 +117,19 @@
           "description": "Layers of phyllo with nuts and orange blossom syrup"
         }
       ],
-      "pricePerPerson": 30.00,
+      "pricePerPerson": 30.0,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 355,
+          "amount": 155,
           "unit": "kg CO2e",
           "comparison": "vs. traditional Mediterranean wedding menu",
-          "equivalentTo": "Planting 16 trees"
+          "equivalentTo": "Planting 7 trees"
         },
         "sufferingPrevented": {
-          "animalsSpared": 88,
+          "animalsSpared": 10,
           "breakdown": {
-            "chickens": 55,
-            "fish": 18,
-            "cows": 15
+            "chickens": 7,
+            "fish": 3
           },
           "description": "Animals spared from this meal"
         }
@@ -165,20 +162,19 @@
           "description": "Tangy lemon curd in almond crust with meringue"
         }
       ],
-      "pricePerPerson": 38.00,
+      "pricePerPerson": 38.0,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 365,
+          "amount": 165,
           "unit": "kg CO2e",
           "comparison": "vs. traditional fine dining wedding menu",
-          "equivalentTo": "Powering a home for 12 days"
+          "equivalentTo": "Powering a home for 5.5 days"
         },
         "sufferingPrevented": {
-          "animalsSpared": 92,
+          "animalsSpared": 11,
           "breakdown": {
-            "chickens": 60,
-            "cows": 22,
-            "fish": 10
+            "chickens": 9,
+            "fish": 2
           },
           "description": "Animals spared from this meal"
         }
@@ -211,20 +207,20 @@
           "description": "Light, tropical mousse with fresh fruit"
         }
       ],
-      "pricePerPerson": 33.00,
+      "pricePerPerson": 33.0,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 395,
+          "amount": 195,
           "unit": "kg CO2e",
           "comparison": "vs. traditional tropical wedding menu",
-          "equivalentTo": "Not using a dryer for 2.5 years"
+          "equivalentTo": "Not using a dryer for 1 year"
         },
         "sufferingPrevented": {
-          "animalsSpared": 102,
+          "animalsSpared": 14,
           "breakdown": {
-            "chickens": 62,
-            "pigs": 15,
-            "fish": 25
+            "chickens": 10,
+            "pigs": 2,
+            "fish": 2
           },
           "description": "Animals spared from this meal"
         }
