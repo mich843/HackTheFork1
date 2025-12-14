@@ -30,17 +30,16 @@
       "pricePerPerson": 26.00,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 455,
+          "amount": 385,
           "unit": "kg CO2e",
           "comparison": "vs. traditional Christmas roast",
-          "equivalentTo": "Driving 1,140 miles in an average car"
+          "equivalentTo": "Driving 965 miles in an average car"
         },
         "sufferingPrevented": {
-          "animalsSpared": 115,
+          "animalsSpared": 11,
           "breakdown": {
-            "turkeys": 6,
-            "pigs": 8,
-            "chickens": 101
+            "cows": 10,
+            "hens": 1
           },
           "description": "Animals spared from this meal"
         }
@@ -76,17 +75,16 @@
       "pricePerPerson": 28.00,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 430,
+          "amount": 425,
           "unit": "kg CO2e",
           "comparison": "vs. traditional European Christmas meal",
           "equivalentTo": "Taking a car off the road for 7 weeks"
         },
         "sufferingPrevented": {
-          "animalsSpared": 108,
+          "animalsSpared": 12,
           "breakdown": {
-            "turkeys": 6,
-            "pigs": 10,
-            "chickens": 92
+            "cows": 11,
+            "hens": 1
           },
           "description": "Animals spared from this meal"
         }
@@ -122,17 +120,17 @@
       "pricePerPerson": 30.00,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 405,
+          "amount": 305,
           "unit": "kg CO2e",
           "comparison": "vs. traditional holiday dinner",
-          "equivalentTo": "Planting 18 trees"
+          "equivalentTo": "Planting 14 trees"
         },
         "sufferingPrevented": {
-          "animalsSpared": 102,
+          "animalsSpared": 18,
           "breakdown": {
-            "turkeys": 6,
-            "chickens": 88,
-            "fish": 8
+            "chickens": 15,
+            "fish": 2,
+            "hens": 1
           },
           "description": "Animals spared from this meal"
         }
@@ -168,17 +166,17 @@
       "pricePerPerson": 24.50,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 385,
+          "amount": 155,
           "unit": "kg CO2e",
           "comparison": "vs. traditional Nordic Christmas feast",
-          "equivalentTo": "Powering a home for 13 days"
+          "equivalentTo": "Powering a home for 5 days"
         },
         "sufferingPrevented": {
-          "animalsSpared": 118,
+          "animalsSpared": 21,
           "breakdown": {
-            "pigs": 12,
-            "chickens": 85,
-            "fish": 21
+            "chickens": 15,
+            "fish": 5,
+            "hens": 1
           },
           "description": "Animals spared from this meal"
         }
@@ -214,17 +212,16 @@
       "pricePerPerson": 22.00,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 440,
+          "amount": 255,
           "unit": "kg CO2e",
           "comparison": "vs. traditional holiday roast",
-          "equivalentTo": "Not using a dryer for 3 years"
+          "equivalentTo": "Not using a dryer for 1.5 years"
         },
         "sufferingPrevented": {
-          "animalsSpared": 112,
+          "animalsSpared": 16,
           "breakdown": {
-            "turkeys": 6,
-            "pigs": 9,
-            "chickens": 97
+            "chickens": 15,
+            "hens": 1
           },
           "description": "Animals spared from this meal"
         }

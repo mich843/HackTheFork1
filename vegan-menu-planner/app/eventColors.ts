@@ -4,14 +4,14 @@ export const eventColorMap: Record<string, { primary: string; accent: string; li
     accent: '#d97706',
     light: '#fed7aa',
     gradient: 'from-orange-50 to-amber-100',
-    bgImage: 'https://images.unsplash.com/photo-1574672280315-33708c4a0c3e?w=1200&h=400&fit=crop'
+    bgImage: 'https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?w=1200&h=400&fit=crop'
   },
   'Afterwork Buffet': {
     primary: '#2563eb',
     accent: '#4f46e5',
     light: '#bfdbfe',
     gradient: 'from-blue-50 to-indigo-100',
-    bgImage: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&h=400&fit=crop'
+    bgImage: 'https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=1200&h=400&fit=crop'
   },
   'Christmas Dinner': {
     primary: '#dc2626',

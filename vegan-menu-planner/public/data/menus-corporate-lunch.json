@@ -30,16 +30,16 @@
       "pricePerPerson": 20.00,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 295,
+          "amount": 175,
           "unit": "kg CO2e",
           "comparison": "vs. traditional corporate lunch with meat",
-          "equivalentTo": "Driving 738 miles in an average car"
+          "equivalentTo": "Driving 440 miles in an average car"
         },
         "sufferingPrevented": {
-          "animalsSpared": 62,
+          "animalsSpared": 18,
           "breakdown": {
-            "chickens": 55,
-            "cows": 7
+            "chickens": 15,
+            "cows": 3
           },
           "description": "Animals spared from this meal"
         }
@@ -75,17 +75,17 @@
       "pricePerPerson": 22.00,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 315,
+          "amount": 160,
           "unit": "kg CO2e",
           "comparison": "vs. traditional international buffet",
-          "equivalentTo": "Taking a car off the road for 5 weeks"
+          "equivalentTo": "Taking a car off the road for 2.5 weeks"
         },
         "sufferingPrevented": {
-          "animalsSpared": 75,
+          "animalsSpared": 21,
           "breakdown": {
-            "chickens": 50,
-            "fish": 20,
-            "cows": 5
+            "chickens": 15,
+            "fish": 5,
+            "cows": 1
           },
           "description": "Animals spared from this meal"
         }
@@ -121,17 +121,17 @@
       "pricePerPerson": 21.00,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 285,
+          "amount": 145,
           "unit": "kg CO2e",
           "comparison": "vs. traditional lunch menu",
-          "equivalentTo": "Planting 13 trees"
+          "equivalentTo": "Planting 7 trees"
         },
         "sufferingPrevented": {
-          "animalsSpared": 58,
+          "animalsSpared": 19,
           "breakdown": {
-            "chickens": 45,
-            "fish": 10,
-            "cows": 3
+            "chickens": 15,
+            "fish": 3,
+            "cows": 1
           },
           "description": "Animals spared from this meal"
         }
@@ -167,17 +167,16 @@
       "pricePerPerson": 18.50,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 310,
+          "amount": 165,
           "unit": "kg CO2e",
           "comparison": "vs. traditional deli sandwich spread",
-          "equivalentTo": "Powering a home for 11 days"
+          "equivalentTo": "Powering a home for 6 days"
         },
         "sufferingPrevented": {
-          "animalsSpared": 68,
+          "animalsSpared": 18,
           "breakdown": {
-            "chickens": 50,
-            "pigs": 10,
-            "cows": 8
+            "chickens": 15,
+            "cows": 3
           },
           "description": "Animals spared from this meal"
         }
@@ -213,17 +212,16 @@
       "pricePerPerson": 23.00,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 325,
+          "amount": 195,
           "unit": "kg CO2e",
           "comparison": "vs. traditional Italian lunch",
-          "equivalentTo": "Not using a dryer for 2 years"
+          "equivalentTo": "Not using a dryer for 1 year"
         },
         "sufferingPrevented": {
-          "animalsSpared": 72,
+          "animalsSpared": 19,
           "breakdown": {
-            "chickens": 48,
-            "cows": 20,
-            "fish": 4
+            "chickens": 15,
+            "cows": 4
           },
           "description": "Animals spared from this meal"
         }

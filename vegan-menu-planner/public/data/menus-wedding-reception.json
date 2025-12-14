@@ -30,17 +30,17 @@
       "pricePerPerson": 35.00,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 380,
+          "amount": 235,
           "unit": "kg CO2e",
           "comparison": "vs. traditional wedding dinner",
-          "equivalentTo": "Driving 950 miles in an average car"
+          "equivalentTo": "Driving 590 miles in an average car"
         },
         "sufferingPrevented": {
-          "animalsSpared": 95,
+          "animalsSpared": 21,
           "breakdown": {
-            "chickens": 65,
-            "cows": 20,
-            "fish": 10
+            "chickens": 15,
+            "cows": 5,
+            "hens": 1
           },
           "description": "Animals spared from this meal"
         }
@@ -76,17 +76,17 @@
       "pricePerPerson": 32.00,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 425,
+          "amount": 315,
           "unit": "kg CO2e",
           "comparison": "vs. traditional wedding feast",
-          "equivalentTo": "Taking a car off the road for 7 weeks"
+          "equivalentTo": "Taking a car off the road for 5 weeks"
         },
         "sufferingPrevented": {
-          "animalsSpared": 108,
+          "animalsSpared": 19,
           "breakdown": {
-            "chickens": 70,
-            "cows": 28,
-            "pigs": 10
+            "chickens": 15,
+            "cows": 3,
+            "hens": 1
           },
           "description": "Animals spared from this meal"
         }
@@ -122,17 +122,17 @@
       "pricePerPerson": 30.00,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 355,
+          "amount": 195,
           "unit": "kg CO2e",
           "comparison": "vs. traditional Mediterranean wedding menu",
-          "equivalentTo": "Planting 16 trees"
+          "equivalentTo": "Planting 9 trees"
         },
         "sufferingPrevented": {
-          "animalsSpared": 88,
+          "animalsSpared": 21,
           "breakdown": {
-            "chickens": 55,
-            "fish": 18,
-            "cows": 15
+            "chickens": 15,
+            "fish": 5,
+            "hens": 1
           },
           "description": "Animals spared from this meal"
         }
@@ -168,17 +168,17 @@
       "pricePerPerson": 38.00,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 365,
+          "amount": 255,
           "unit": "kg CO2e",
           "comparison": "vs. traditional fine dining wedding menu",
-          "equivalentTo": "Powering a home for 12 days"
+          "equivalentTo": "Powering a home for 9 days"
         },
         "sufferingPrevented": {
-          "animalsSpared": 92,
+          "animalsSpared": 20,
           "breakdown": {
-            "chickens": 60,
-            "cows": 22,
-            "fish": 10
+            "chickens": 15,
+            "cows": 4,
+            "hens": 1
           },
           "description": "Animals spared from this meal"
         }
@@ -214,17 +214,17 @@
       "pricePerPerson": 33.00,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 395,
+          "amount": 175,
           "unit": "kg CO2e",
           "comparison": "vs. traditional tropical wedding menu",
-          "equivalentTo": "Not using a dryer for 2.5 years"
+          "equivalentTo": "Not using a dryer for 1 year"
         },
         "sufferingPrevented": {
-          "animalsSpared": 102,
+          "animalsSpared": 21,
           "breakdown": {
-            "chickens": 62,
-            "pigs": 15,
-            "fish": 25
+            "chickens": 15,
+            "fish": 5,
+            "hens": 1
           },
           "description": "Animals spared from this meal"
         }

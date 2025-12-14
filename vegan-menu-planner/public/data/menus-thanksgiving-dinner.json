@@ -4,7 +4,7 @@
       "id": "thanksgiving-1",
       "name": "Traditional Harvest Feast",
       "description": "Classic Thanksgiving favorites with modern plant-based twists",
-      "image": "https://images.unsplash.com/photo-1574672280315-33708c4a0c3e?w=600&h=400&fit=crop",
+      "image": "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?w=600&h=400&fit=crop",
       "dishes": [
         {
           "name": "Herb-Roasted Tofurky with Mushroom Gravy",
@@ -30,16 +30,16 @@
       "pricePerPerson": 22.00,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 420,
+          "amount": 315,
           "unit": "kg CO2e",
           "comparison": "vs. traditional turkey dinner",
-          "equivalentTo": "Driving 1,050 miles in an average car"
+          "equivalentTo": "Driving 790 miles in an average car"
         },
         "sufferingPrevented": {
-          "animalsSpared": 105,
+          "animalsSpared": 9,
           "breakdown": {
-            "turkeys": 5,
-            "chickens": 100
+            "turkeys": 8,
+            "hens": 1
           },
           "description": "Animals spared from this meal"
         }
@@ -75,16 +75,16 @@
       "pricePerPerson": 25.00,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 395,
+          "amount": 295,
           "unit": "kg CO2e",
           "comparison": "vs. traditional turkey dinner",
-          "equivalentTo": "Taking a car off the road for 6 weeks"
+          "equivalentTo": "Taking a car off the road for 5 weeks"
         },
         "sufferingPrevented": {
-          "animalsSpared": 102,
+          "animalsSpared": 9,
           "breakdown": {
-            "turkeys": 5,
-            "chickens": 97
+            "turkeys": 8,
+            "hens": 1
           },
           "description": "Animals spared from this meal"
         }
@@ -120,17 +120,16 @@
       "pricePerPerson": 20.50,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 445,
+          "amount": 330,
           "unit": "kg CO2e",
           "comparison": "vs. traditional Southern Thanksgiving",
-          "equivalentTo": "Planting 20 trees"
+          "equivalentTo": "Planting 15 trees"
         },
         "sufferingPrevented": {
-          "animalsSpared": 110,
+          "animalsSpared": 9,
           "breakdown": {
-            "turkeys": 5,
-            "pigs": 8,
-            "chickens": 97
+            "turkeys": 8,
+            "hens": 1
           },
           "description": "Animals spared from this meal"
         }
@@ -166,17 +165,16 @@
       "pricePerPerson": 23.50,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 380,
+          "amount": 285,
           "unit": "kg CO2e",
           "comparison": "vs. traditional meat-based feast",
-          "equivalentTo": "Powering a home for 13 days"
+          "equivalentTo": "Powering a home for 10 days"
         },
         "sufferingPrevented": {
-          "animalsSpared": 98,
+          "animalsSpared": 9,
           "breakdown": {
-            "turkeys": 5,
-            "chickens": 90,
-            "fish": 3
+            "turkeys": 8,
+            "hens": 1
           },
           "description": "Animals spared from this meal"
         }
@@ -212,16 +210,16 @@
       "pricePerPerson": 19.00,
       "impactMetrics": {
         "carbonSaved": {
-          "amount": 410,
+          "amount": 305,
           "unit": "kg CO2e",
           "comparison": "vs. traditional turkey dinner",
-          "equivalentTo": "Not using a dryer for 3 years"
+          "equivalentTo": "Not using a dryer for 2 years"
         },
         "sufferingPrevented": {
-          "animalsSpared": 103,
+          "animalsSpared": 9,
           "breakdown": {
-            "turkeys": 5,
-            "chickens": 98
+            "turkeys": 8,
+            "hens": 1
           },
           "description": "Animals spared from this meal"
         }

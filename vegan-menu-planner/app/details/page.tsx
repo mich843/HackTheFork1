@@ -35,7 +35,7 @@ function DetailsForm() {
     <div className={`min-h-screen bg-gradient-to-br ${colors.gradient} relative`}>
       {/* Event-themed background image overlay */}
       <div
-        className="absolute inset-0 opacity-5"
+        className="absolute inset-0 opacity-20"
         style={{
           backgroundImage: `url(${colors.bgImage})`,
           backgroundSize: 'cover',
